@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LibrePLC32") (type "KiCad") (uri "${KIPRJMOD}/libs/LibrePLC32.pretty") (options "") (descr ""))
+)
