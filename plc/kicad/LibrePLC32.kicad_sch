@@ -5,6 +5,26 @@
 	(uuid "ef4c1a27-85a3-413a-9f93-a41c4f97eee5")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 173.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2371c7-a739-4389-8170-0390da0dd16c")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9706247c-c683-4b65-a86b-01c6492de7d7")
+	)
 	(sheet
 		(at 50.8 74.93)
 		(size 31.75 12.7)
@@ -135,6 +155,26 @@
 				(justify left top)
 			)
 		)
+		(pin "I2C_SDA" input
+			(at 173.99 90.17 180)
+			(uuid "b7e56920-8fd2-40ac-8255-1db2f7929ceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 173.99 87.63 180)
+			(uuid "ab7e62c3-124b-46a1-a7d9-21327474fe68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
@@ -225,6 +265,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" output
+			(at 154.94 90.17 0)
+			(uuid "760bf700-ac41-4f52-b25c-3a8e54b1c001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 154.94 87.63 0)
+			(uuid "24c2f5b6-e50a-4e40-abde-24ddb065efdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
