@@ -405,6 +405,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 102.235) (xy 82.55 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6220cd-662d-42db-9116-cf3f86b4a9fa")
+	)
+	(wire
+		(pts
 			(xy 82.55 137.16) (xy 127 137.16)
 		)
 		(stroke
@@ -465,6 +475,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 104.775) (xy 127 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51920650-93b6-40de-ac11-0c2260be431d")
+	)
+	(wire
+		(pts
 			(xy 218.44 102.235) (xy 178.435 102.235)
 		)
 		(stroke
@@ -472,6 +492,16 @@
 			(type default)
 		)
 		(uuid "5265a631-8948-4507-a89c-f23cf1c5d5e7")
+	)
+	(wire
+		(pts
+			(xy 82.55 107.315) (xy 127 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fd98c0-9ebb-4512-9657-2598e243989a")
 	)
 	(wire
 		(pts
@@ -560,8 +590,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 99.06)
-		(size 31.75 12.7)
+		(at 50.8 97.79)
+		(size 31.75 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -576,7 +606,7 @@
 		)
 		(uuid "58fa1ecb-ea1c-4a70-bb90-31ff9b441562")
 		(property "Sheetname" "RS-485"
-			(at 50.8 98.3484 0)
+			(at 50.8 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -587,7 +617,7 @@
 			)
 		)
 		(property "Sheetfile" "rs-485.kicad_sch"
-			(at 50.8 112.3446 0)
+			(at 50.8 112.9796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -595,6 +625,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RS485_DIR" input
+			(at 82.55 102.235 0)
+			(uuid "a7a32900-b42c-4005-a46a-274972a5df26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_RXD" bidirectional
+			(at 82.55 104.775 0)
+			(uuid "64b4d324-f697-4622-9016-8e1e4c4e48e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_TXD" bidirectional
+			(at 82.55 107.315 0)
+			(uuid "4deab394-95cb-47df-a5fa-a809d084d3a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -888,6 +948,36 @@
 		(pin "ETH_MISO" input
 			(at 127 132.08 180)
 			(uuid "ac9671f2-5937-4e5e-879c-86dd5d89427a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_DIR" output
+			(at 127 102.235 180)
+			(uuid "2181b897-e93d-4e9d-b782-ed5f5659b674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_RXD" bidirectional
+			(at 127 104.775 180)
+			(uuid "7238249d-612b-4ee7-ac02-c070b52ca024")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_TXD" bidirectional
+			(at 127 107.315 180)
+			(uuid "074e5d2a-7b9c-4241-83d4-a22fcccc6e32")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2899,6 +2899,17 @@
 		)
 		(uuid "a8f8625c-f60a-4b0c-a181-eade07a379d7")
 	)
+	(hierarchical_label "RS485_TXD"
+		(shape bidirectional)
+		(at 66.675 117.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b073b80e-ebf1-4bbf-a77b-fe25ce1746f0")
+	)
 	(hierarchical_label "~{MUX_INT}"
 		(shape input)
 		(at 211.455 129.54 0)
@@ -2964,6 +2975,28 @@
 			(justify left)
 		)
 		(uuid "f7479ea9-20f9-4651-b3d6-188d32822433")
+	)
+	(hierarchical_label "RS485_DIR"
+		(shape output)
+		(at 66.675 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa006cf1-3f50-407c-84a1-746a986b892f")
+	)
+	(hierarchical_label "RS485_RXD"
+		(shape bidirectional)
+		(at 66.675 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe20b450-b59c-4940-b687-bf5eaf429a45")
 	)
 	(symbol
 		(lib_id "Device:R")
