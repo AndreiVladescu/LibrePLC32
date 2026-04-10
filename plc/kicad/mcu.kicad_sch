@@ -2672,6 +2672,16 @@
 		)
 		(uuid "d1fdce7f-60cb-4208-8a4b-eb7ceca4a4df")
 	)
+	(bus
+		(pts
+			(xy 211.455 114.3) (xy 211.455 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d313b84b-2676-49b3-a186-011fd283dc09")
+	)
 	(wire
 		(pts
 			(xy 212.09 76.835) (xy 212.09 78.74)
@@ -2812,6 +2822,39 @@
 		)
 		(uuid "df95488e-dbdb-4ece-9bed-9753feb195e2")
 	)
+	(hierarchical_label "ETH_MOSI"
+		(shape output)
+		(at 65.405 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09db6e35-9c10-4489-8bb0-8387233f5bca")
+	)
+	(hierarchical_label "~{ETH_CS}"
+		(shape output)
+		(at 65.405 95.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cb705ca-dca3-4101-b058-60f561b1aa24")
+	)
+	(hierarchical_label "ADC_RDY"
+		(shape input)
+		(at 211.455 125.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "215773fa-9cfe-4f74-91cd-87c2b42a39b2")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 212.09 88.9 270)
@@ -2822,6 +2865,17 @@
 			(justify right)
 		)
 		(uuid "27c36e22-b184-40e1-a862-4e16b76e4291")
+	)
+	(hierarchical_label "ETH_MISO"
+		(shape input)
+		(at 65.405 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "870edf86-338f-45ce-b12b-fd807157b79f")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
@@ -2834,6 +2888,28 @@
 		)
 		(uuid "a286ec6c-c308-4564-9038-d0dfa30137d0")
 	)
+	(hierarchical_label "ETH_SCLK"
+		(shape output)
+		(at 65.405 93.345 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8f8625c-f60a-4b0c-a181-eade07a379d7")
+	)
+	(hierarchical_label "~{MUX_INT}"
+		(shape input)
+		(at 211.455 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b395ff24-92d1-4e45-b921-b849a6fdb94e")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 220.98 88.9 270)
@@ -2844,6 +2920,39 @@
 			(justify right)
 		)
 		(uuid "cc1fe848-9bf1-4dab-ab23-e814e933023f")
+	)
+	(hierarchical_label "~{ETH_RST}"
+		(shape output)
+		(at 65.405 83.185 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd0399ef-07b8-4533-8f71-f5aec14c897a")
+	)
+	(hierarchical_label "~{ETH_INT}"
+		(shape input)
+		(at 65.405 85.725 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e72e8b64-5230-46c2-9065-78dbf134ca1f")
+	)
+	(hierarchical_label "MCU_DI"
+		(shape input)
+		(at 211.455 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed3f4459-9afd-42fe-90dc-0d5dc01fd1a2")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape output)
