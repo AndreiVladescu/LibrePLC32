@@ -300,161 +300,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LibrePLC32:BSMD1206C-1300T"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BSMD1206C-1300T"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LibrePLC32:F1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C41367225.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BHFUSE(佰宏)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BSMD1206C-1300T"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C41367225"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSMD1206C-1300T_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LibrePLC32:CDSOT23-SM712"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2165,16 +2010,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 83.82) (xy 203.835 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46acc44a-d53d-4b77-ad55-1a3d40a75368")
-	)
-	(wire
-		(pts
 			(xy 97.155 80.645) (xy 100.965 80.645)
 		)
 		(stroke
@@ -2182,6 +2017,16 @@
 			(type default)
 		)
 		(uuid "515535cc-149a-4455-9921-dfd65f7feca2")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5339fdd8-fd0b-4a4a-af2f-1ec5a3ea05f7")
 	)
 	(wire
 		(pts
@@ -2245,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 215.9 86.36)
+			(xy 203.2 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2362,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "d3724c8e-b895-40ad-a287-793e4c66d92f")
-	)
-	(wire
-		(pts
-			(xy 213.995 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca665bc-09e0-4464-aaa1-b075592847b5")
 	)
 	(wire
 		(pts
@@ -3319,6 +3154,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+VSW")
+		(at 203.2 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ec3fca-f5c7-4d80-bcfe-1e03be55be1c")
+		(property "Reference" "#PWR0117"
+			(at 207.01 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VSYS"
+			(at 200.025 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0354837b-19b8-4fd7-b1a4-621caaa6e8d7")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LibrePLC32:DB2ERC-5.08-4P")
 		(at 219.71 87.63 0)
 		(unit 1)
@@ -3679,85 +3593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 201.93 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a12d802f-34eb-4947-aa42-69848ed8c61c")
-		(property "Reference" "#PWR0117"
-			(at 205.74 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VSYS"
-			(at 198.755 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 201.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6787742-cfd5-495f-b82f-6b52ab47fb2a")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LibrePLC32:THVD1450DR")
 		(at 109.855 81.915 0)
 		(mirror y)
@@ -4050,7 +3885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 86.36 270)
+		(at 203.2 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4061,7 +3896,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1ccad03-465a-4912-8f5c-a5c407fb85fc")
 		(property "Reference" "#PWR0126"
-			(at 195.58 86.36 0)
+			(at 196.85 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,7 +3907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 86.3599 90)
+			(at 199.39 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4083,7 +3918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 86.36 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4094,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 86.36 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +3940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 86.36 0)
+			(at 203.2 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,119 +4035,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LibrePLC32:BSMD1206C-1300T")
-		(at 208.915 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffbab101-49ce-4f5a-b0e3-f8c4aceb4bea")
-		(property "Reference" "F1"
-			(at 208.915 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSMD1206C-1300T"
-			(at 208.915 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LibrePLC32:F1206"
-			(at 208.915 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41367225.pdf"
-			(at 208.915 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.915 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 208.915 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSMD1206C-1300T"
-			(at 208.915 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C41367225"
-			(at 208.915 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c491d7f4-9268-421e-b4ca-bd34bd3d65b7")
-		)
-		(pin "2"
-			(uuid "fa94b16f-c079-4a23-a74b-204ff2ec5df3")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "F1")
 					(unit 1)
 				)
 			)

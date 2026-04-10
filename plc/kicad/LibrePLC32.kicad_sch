@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "ef4c1a27-85a3-413a-9f93-a41c4f97eee5")
 	(paper "A4")
+	(title_block
+		(title "LibrePLC32")
+	)
 	(lib_symbols)
 	(polyline
 		(pts
@@ -405,6 +408,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 79.375) (xy 82.55 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab0bfb5-9d0d-49e0-818e-116a69daab8d")
+	)
+	(wire
+		(pts
 			(xy 127 102.235) (xy 82.55 102.235)
 		)
 		(stroke
@@ -442,6 +455,16 @@
 			(type default)
 		)
 		(uuid "1e5fcebd-52e3-45ca-9284-78216563f383")
+	)
+	(wire
+		(pts
+			(xy 82.55 84.455) (xy 127 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d976d8-3223-4332-8ace-990d0e09c3fa")
 	)
 	(wire
 		(pts
@@ -535,6 +558,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 81.915) (xy 82.55 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f03da7-5ffd-4a4c-a191-d759c9f47c1f")
+	)
+	(wire
+		(pts
 			(xy 82.55 140.97) (xy 127 140.97)
 		)
 		(stroke
@@ -579,6 +612,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN_FAULT" output
+			(at 82.55 84.455 0)
+			(uuid "2a6ccbdb-6706-4781-b94a-88353726422b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 82.55 79.375 0)
+			(uuid "8d5502ac-ec35-451b-992b-19fa0b9eb22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 82.55 81.915 0)
+			(uuid "239e89d5-79e0-4177-a802-08df96c958d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -978,6 +1041,36 @@
 		(pin "RS485_TXD" bidirectional
 			(at 127 107.315 180)
 			(uuid "074e5d2a-7b9c-4241-83d4-a22fcccc6e32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_FAULT" input
+			(at 127 84.455 180)
+			(uuid "eeaa66fc-82cd-4a82-b6bf-6c7d73036aff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 127 81.915 180)
+			(uuid "f9c82fff-9098-4184-883d-95166663a82c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 127 79.375 180)
+			(uuid "01a9b547-54f7-43f2-a581-490873e38597")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1958,145 +1958,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2374,16 +2235,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.712 151.13) (xy 112.268 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01ade26f-6a3b-4386-b8c4-bbd4b118ac55")
-	)
-	(wire
-		(pts
 			(xy 65.532 179.07) (xy 71.12 179.07)
 		)
 		(stroke
@@ -2654,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 108.712 148.844) (xy 108.712 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb1a222-7fcd-4a2f-8ab1-7963d59f630a")
-	)
-	(wire
-		(pts
 			(xy 212.09 86.36) (xy 212.09 88.9)
 		)
 		(stroke
@@ -2721,26 +2562,6 @@
 			(type default)
 		)
 		(uuid "ee49d219-3f1d-4872-9800-b46807420b65")
-	)
-	(wire
-		(pts
-			(xy 123.952 151.13) (xy 119.888 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee821f06-6062-4bf7-aa69-b479d22b4ff1")
-	)
-	(wire
-		(pts
-			(xy 123.952 149.352) (xy 123.952 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6117c67-5a03-46d0-a500-475b2e12f09c")
 	)
 	(wire
 		(pts
@@ -2866,6 +2687,17 @@
 		)
 		(uuid "27c36e22-b184-40e1-a862-4e16b76e4291")
 	)
+	(hierarchical_label "CAN_FAULT"
+		(shape input)
+		(at 67.31 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29c96ba2-bc24-4d9e-bead-c6642434b9ec")
+	)
 	(hierarchical_label "ETH_MISO"
 		(shape input)
 		(at 65.405 90.805 0)
@@ -2876,6 +2708,17 @@
 			(justify left)
 		)
 		(uuid "870edf86-338f-45ce-b12b-fd807157b79f")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 67.31 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90408451-5d32-47e0-b5b1-587591ac4960")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
@@ -2920,6 +2763,17 @@
 			(justify left)
 		)
 		(uuid "b395ff24-92d1-4e45-b921-b849a6fdb94e")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 67.31 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c38425b4-66c5-4e3d-a23d-e9d0c8f672d3")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -3667,84 +3521,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 108.712 148.844 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f8205df-5272-4dd0-96ef-14883a700e51")
-		(property "Reference" "#PWR09"
-			(at 108.712 152.654 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 108.712 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.712 148.844 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 108.712 148.844 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 108.712 148.844 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65c45595-139f-46f8-93a7-f580c089ebee")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 182.118 0)
 		(unit 1)
@@ -4208,84 +3984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 123.952 149.352 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba6cea8f-c11c-4c4d-a7aa-f3aec81e2003")
-		(property "Reference" "#PWR010"
-			(at 123.952 153.162 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.952 144.272 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.952 149.352 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.952 149.352 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.952 149.352 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64ea928f-d1b9-421c-be2b-6b22b1bf718b")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.958 161.036 0)
 		(unit 1)
@@ -4516,86 +4214,6 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.078 151.13 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e12e742a-d305-4bce-b600-f74498659b4f")
-		(property "Reference" "R1"
-			(at 116.078 145.542 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 116.078 148.082 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
-			(at 116.078 152.908 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.078 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.078 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fc755ddd-e0fa-4715-b540-03ab4bba58a5")
-		)
-		(pin "1"
-			(uuid "5080badd-de8e-48e0-8c34-a6dd3e92ddae")
-		)
-		(instances
-			(project "LibrePLC32"
-				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
-					(reference "R1")
 					(unit 1)
 				)
 			)
