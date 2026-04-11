@@ -20,16 +20,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 52.07) (xy 89.535 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a8e049-767d-44b2-be9b-1dea1e89e309")
-	)
-	(wire
-		(pts
 			(xy 127 79.375) (xy 82.55 79.375)
 		)
 		(stroke
@@ -168,6 +158,16 @@
 		)
 		(uuid "30e1a1c3-e5cc-463e-b4a5-6205831532c3")
 	)
+	(wire
+		(pts
+			(xy 209.55 56.515) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3191c633-ecba-44f7-b97f-d3260e256d5e")
+	)
 	(polyline
 		(pts
 			(xy 151848.5687 -151848.5687) (xy 151848.5687 -151848.5687)
@@ -177,6 +177,16 @@
 			(type solid)
 		)
 		(uuid "33c0543b-fa98-4427-89bf-b7e07fecebf0")
+	)
+	(wire
+		(pts
+			(xy 212.09 59.69) (xy 218.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34543c08-a723-4c85-843b-4a030a1095c0")
 	)
 	(wire
 		(pts
@@ -207,6 +217,16 @@
 			(type solid)
 		)
 		(uuid "44a7b31b-a28a-45bb-88fe-878ba3279dd6")
+	)
+	(wire
+		(pts
+			(xy 218.44 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3176f9-0ef2-456e-9e6c-4188ecb73c4e")
 	)
 	(polyline
 		(pts
@@ -267,16 +287,6 @@
 			(type default)
 		)
 		(uuid "554a7e16-a87b-49c2-96e0-6b84b5a5c5da")
-	)
-	(wire
-		(pts
-			(xy 89.535 34.29) (xy 212.09 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58be8c26-6e93-4b94-b49a-1eae4bd4049b")
 	)
 	(polyline
 		(pts
@@ -368,16 +378,6 @@
 		)
 		(uuid "870870ee-9762-42d7-813f-46365d1193ae")
 	)
-	(wire
-		(pts
-			(xy 89.535 52.07) (xy 89.535 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b404eca-7372-477f-810c-ac7477c71731")
-	)
 	(polyline
 		(pts
 			(xy -151848.5687 -151848.5687) (xy -151848.5687 -151848.5687)
@@ -427,16 +427,6 @@
 			(type solid)
 		)
 		(uuid "bdaf8901-88db-47f9-a8b4-8e5af6bdbab3")
-	)
-	(wire
-		(pts
-			(xy 212.09 34.29) (xy 212.09 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfca7c2f-df2c-4a26-94f5-421528c0ef52")
 	)
 	(wire
 		(pts
@@ -517,6 +507,26 @@
 			(type default)
 		)
 		(uuid "ed6679d4-f020-4548-97b4-09c738bb715d")
+	)
+	(wire
+		(pts
+			(xy 212.09 77.47) (xy 212.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c8170d-1428-4ca9-be7a-aa80ac312413")
+	)
+	(wire
+		(pts
+			(xy 218.44 56.515) (xy 209.55 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4697a7-dec7-4a20-b24a-a9585e7c996e")
 	)
 	(polyline
 		(pts
@@ -778,6 +788,16 @@
 				(justify left)
 			)
 		)
+		(pin "V_IN_MAIN" output
+			(at 218.44 80.01 180)
+			(uuid "b7484609-ed81-4712-8fd7-cd217208b143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
@@ -787,7 +807,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 49.53)
+		(at 218.44 48.26)
 		(size 31.75 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -803,7 +823,7 @@
 		)
 		(uuid "7cb27fd0-1c73-4e87-ad2d-fb4e463ee9fb")
 		(property "Sheetname" "Power"
-			(at 50.8 48.8184 0)
+			(at 218.44 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -814,7 +834,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 50.8 64.0846 0)
+			(at 218.44 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -825,13 +845,23 @@
 			)
 		)
 		(pin "PPIC_IMON" output
-			(at 82.55 52.07 0)
+			(at 218.44 59.69 180)
 			(uuid "6b98928c-850a-423a-8f41-e291769f0324")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "V_IN_MAIN" input
+			(at 218.44 56.515 180)
+			(uuid "0c00f592-8ec7-4001-b97f-9b4a0e0a48bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
