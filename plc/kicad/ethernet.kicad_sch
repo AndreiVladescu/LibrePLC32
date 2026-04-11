@@ -5562,6 +5562,7 @@
 			(stroke
 				(width 0)
 				(type dash)
+				(color 0 132 0 1)
 			)
 			(fill
 				(type none)
@@ -5620,6 +5621,7 @@
 			(stroke
 				(width 0)
 				(type dash)
+				(color 0 132 0 1)
 			)
 			(fill
 				(type none)
@@ -5739,9 +5741,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f0e6579d-7909-4370-9b76-391ebf9d58f0")
-		(property "Net Class" "3V3"
-			(at 219.71 120.015 0)
+		(uuid "ffa76db4-a4c1-4303-b4b3-eec854c44261")
+		(property "Net Class" "SYS_LV"
+			(at 218.44 120.015 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

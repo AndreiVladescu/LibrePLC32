@@ -20,6 +20,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 52.07) (xy 89.535 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a8e049-767d-44b2-be9b-1dea1e89e309")
+	)
+	(wire
+		(pts
 			(xy 127 79.375) (xy 82.55 79.375)
 		)
 		(stroke
@@ -258,6 +268,16 @@
 		)
 		(uuid "554a7e16-a87b-49c2-96e0-6b84b5a5c5da")
 	)
+	(wire
+		(pts
+			(xy 89.535 34.29) (xy 212.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58be8c26-6e93-4b94-b49a-1eae4bd4049b")
+	)
 	(polyline
 		(pts
 			(xy -151848.5687 -151848.5687) (xy -151848.5687 -151848.5687)
@@ -348,6 +368,16 @@
 		)
 		(uuid "870870ee-9762-42d7-813f-46365d1193ae")
 	)
+	(wire
+		(pts
+			(xy 89.535 52.07) (xy 89.535 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b404eca-7372-477f-810c-ac7477c71731")
+	)
 	(polyline
 		(pts
 			(xy -151848.5687 -151848.5687) (xy -151848.5687 -151848.5687)
@@ -400,6 +430,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 34.29) (xy 212.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfca7c2f-df2c-4a26-94f5-421528c0ef52")
+	)
+	(wire
+		(pts
 			(xy 127 81.915) (xy 82.55 81.915)
 		)
 		(stroke
@@ -417,6 +457,16 @@
 			(type solid)
 		)
 		(uuid "d31d44eb-9cf7-42ae-b202-cbddecea64ff")
+	)
+	(wire
+		(pts
+			(xy 212.09 77.47) (xy 218.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55d5771-41bf-4e28-8c8f-ab016796cc1b")
 	)
 	(polyline
 		(pts
@@ -718,6 +768,16 @@
 				(justify left)
 			)
 		)
+		(pin "PPIC_IMON" input
+			(at 218.44 77.47 180)
+			(uuid "8c8ac770-fa3d-44b2-ae75-a0e6bb11cf7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
@@ -762,6 +822,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PPIC_IMON" output
+			(at 82.55 52.07 0)
+			(uuid "6b98928c-850a-423a-8f41-e291769f0324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

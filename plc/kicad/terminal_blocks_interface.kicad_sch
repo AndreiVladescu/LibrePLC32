@@ -4594,10 +4594,6 @@
 		(at 104.013 121.158)
 		(uuid "a3b5e2ec-cf28-48f9-8692-20e0d030b4df")
 	)
-	(no_connect
-		(at 175.26 269.875)
-		(uuid "ecd4e5f0-d372-4d51-9686-fd589ebfa56e")
-	)
 	(bus_entry
 		(at 236.347 66.167)
 		(size 2.54 2.54)
@@ -6013,6 +6009,16 @@
 			(type default)
 		)
 		(uuid "5d28a969-e03b-4bff-9fd4-df68df7c00e3")
+	)
+	(wire
+		(pts
+			(xy 175.26 269.875) (xy 180.34 269.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d51f45d-2ee5-4dac-bc01-4ebc61787676")
 	)
 	(wire
 		(pts
@@ -9035,6 +9041,17 @@
 			(justify left)
 		)
 		(uuid "1dcdd3c0-fa32-436e-b374-740b841ed9a2")
+	)
+	(hierarchical_label "PPIC_IMON"
+		(shape input)
+		(at 180.34 269.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "311991da-6d64-413c-9b7b-1d2875ce2b30")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
