@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d8c2aca4-7432-4420-9d5f-6dd8a6ccd9c5")
 	(paper "A4")
+	(title_block
+		(title "LibrePLC32")
+		(date "2026-04-12")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2254,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.265 66.675) (xy 88.265 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6e5b75-010f-45cf-8d2b-20bb9c8c3256")
+	)
+	(wire
+		(pts
 			(xy 70.485 73.66) (xy 70.485 79.375)
 		)
 		(stroke
@@ -2271,6 +2286,16 @@
 			(type default)
 		)
 		(uuid "e810206c-7f58-4c2f-9d1c-f9804998e503")
+	)
+	(wire
+		(pts
+			(xy 88.265 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab0be6c-29a5-4818-a088-8e0c599e8c9c")
 	)
 	(wire
 		(pts
@@ -2594,6 +2619,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 88.265 66.675 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ad12789-1a4e-4ffe-9631-e6da632a2391")
+		(property "Reference" "#PWR0246"
+			(at 88.265 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 85.725 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 88.265 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6ab8ad5-a900-44a0-8c1b-33d023ec658e")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
+					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 137.795 0)
 		(unit 1)
@@ -2605,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114a61b1-3568-42a6-a8c2-8f1f8793f9fd")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0208"
 			(at 222.25 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -2665,7 +2768,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0171")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f0d9da-bdaa-45f6-a397-7dc7bbef6643")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0203"
 			(at 86.36 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -2743,7 +2846,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0166")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -2761,7 +2864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d19db0b-2f15-4d21-b750-c46155776958")
-		(property "Reference" "R82"
+		(property "Reference" "R85"
 			(at 224.79 131.4449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2928,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R82")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -2842,7 +2945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e54b9ec-6291-470a-8106-b079ebd1f5f5")
-		(property "Reference" "D12"
+		(property "Reference" "D16"
 			(at 69.85 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +3045,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "D12")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -2959,7 +3062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b84c8fc-f36d-4007-868a-de897114dcf2")
-		(property "Reference" "R78"
+		(property "Reference" "R81"
 			(at 64.135 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3126,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R78")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5499e6ed-5764-4a07-8a07-b9f7975350b7")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0206"
 			(at 201.93 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -3220,7 +3323,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0167")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -3237,7 +3340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57f9a60b-d02e-4766-a15e-06e7d07efdaf")
-		(property "Reference" "R80"
+		(property "Reference" "R83"
 			(at 82.55 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3402,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R80")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -3317,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e06bbe1-f7fd-4c16-809c-5c187ebe5d4c")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0204"
 			(at 192.405 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3378,7 +3481,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0169")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd82291-ea47-4265-8b83-59145d98a872")
-		(property "Reference" "CN11"
+		(property "Reference" "CN12"
 			(at 210.185 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3499,7 +3602,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "CN11")
+					(reference "CN12")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82402408-960e-41d6-ad54-0037b7fa5b8a")
-		(property "Reference" "C35"
+		(property "Reference" "C42"
 			(at 205.105 131.4449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +3684,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "C35")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3fe94a-b00a-4e5f-816a-a07741ef2167")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0202"
 			(at 67.945 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3762,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0165")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -3676,7 +3779,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9df0dc8f-9820-4285-bdb1-2e51267fc4e4")
-		(property "Reference" "R79"
+		(property "Reference" "R82"
 			(at 74.295 76.835 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3738,7 +3841,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R79")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -3756,7 +3859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad0e740e-8186-4b19-9126-c9a31225dd01")
-		(property "Reference" "U15"
+		(property "Reference" "U19"
 			(at 99.06 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3869,7 +3972,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "U15")
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -3887,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb474350-8c6d-4b07-817f-fdf723fa83fb")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0201"
 			(at 59.055 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -3947,7 +4050,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0164")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -3965,7 +4068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e52dfb-c254-4518-8968-3b59e768d404")
-		(property "Reference" "R81"
+		(property "Reference" "R84"
 			(at 192.405 131.4449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4029,7 +4132,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "R81")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ccad03-465a-4912-8f5c-a5c407fb85fc")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0205"
 			(at 182.245 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4108,7 +4211,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0170")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -4126,7 +4229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3bd6a58-4538-4f72-8ccd-a884ed36b369")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0207"
 			(at 201.93 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -4186,7 +4289,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/58fa1ecb-ea1c-4a70-bb90-31ff9b441562"
-					(reference "#PWR0168")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)

@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "d8c2aca4-7432-4420-9d5f-6dd8a6ccd9c5")
 	(paper "A3")
+	(title_block
+		(title "LibrePLC32")
+		(date "2026-04-12")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -9522,7 +9527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "033379d8-3cd2-4e00-ad39-4df4c8f58146")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR068"
 			(at 377.19 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -9582,7 +9587,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "#PWR0234")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9758,7 +9763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08c14c55-a7fb-4805-9da4-cd99076e7e77")
-		(property "Reference" "CN4"
+		(property "Reference" "CN8"
 			(at 370.205 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,7 +9860,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN4")
+					(reference "CN8")
 					(unit 1)
 				)
 			)
@@ -12454,7 +12459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dc0996a-6187-4dbd-b27e-9f201d910128")
-		(property "Reference" "CN9"
+		(property "Reference" "CN10"
 			(at 370.205 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12563,7 +12568,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN9")
+					(reference "CN10")
 					(unit 1)
 				)
 			)
@@ -12580,7 +12585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f4a0491-a270-47f8-8b1f-58e3f2ea8aaa")
-		(property "Reference" "CN8"
+		(property "Reference" "CN5"
 			(at 368.3 59.055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +12682,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN8")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -13718,7 +13723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "475f41e4-cdf8-447a-b79c-f6a5cab30b5f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 370.84 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13779,7 +13784,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -15083,7 +15088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ada77d3-4578-466e-8f3b-c4e1ab735216")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR066"
 			(at 381 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15144,7 +15149,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -15814,7 +15819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76b54d64-6e50-486b-8430-e43d62de6902")
-		(property "Reference" "CN5"
+		(property "Reference" "CN9"
 			(at 370.205 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15911,7 +15916,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN5")
+					(reference "CN9")
 					(unit 1)
 				)
 			)
@@ -17619,7 +17624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a04f605-193d-4ced-b0dc-df17cc60a916")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR065"
 			(at 348.615 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -17679,7 +17684,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "#PWR067")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -18261,7 +18266,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a84ff2e6-1b0f-49c2-9c72-6cbd22ec5bb7")
-		(property "Reference" "CN12"
+		(property "Reference" "CN2"
 			(at 372.11 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18358,7 +18363,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN12")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -21734,7 +21739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f34f51f8-e326-46f7-8802-fe63b2a4c8af")
-		(property "Reference" "CN2"
+		(property "Reference" "CN6"
 			(at 370.205 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21831,7 +21836,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN2")
+					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -21848,7 +21853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ea5436-74f3-4c37-96f9-86f977ca888d")
-		(property "Reference" "CN3"
+		(property "Reference" "CN7"
 			(at 370.205 137.795 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21945,7 +21950,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN3")
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -22120,7 +22125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd0c7a64-193e-48ac-b50a-1fef576f0ba3")
-		(property "Reference" "CN7"
+		(property "Reference" "CN4"
 			(at 368.3 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22217,7 +22222,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN7")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -22234,7 +22239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fddf88d5-a794-464c-817d-4cee724a8f2b")
-		(property "Reference" "CN6"
+		(property "Reference" "CN3"
 			(at 368.3 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22331,7 +22336,7 @@
 		(instances
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
-					(reference "CN6")
+					(reference "CN3")
 					(unit 1)
 				)
 			)

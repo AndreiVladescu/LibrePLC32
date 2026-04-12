@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +226,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -224,7 +241,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -558,11 +575,13 @@
       },
       {
         "bus_width": 10,
+        "clearance": 0.4,
         "line_style": 0,
         "name": "SYS_HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 2.0,
         "tuning_profile": "",
         "wire_width": 10
       },
@@ -688,6 +707,15 @@
         "SYS_HV"
       ],
       "Net-(D10-A)": [
+        "SYS_LV"
+      ],
+      "Net-(D11-A)": [
+        "SYS_LV"
+      ],
+      "Net-(D12-A)": [
+        "SYS_HV"
+      ],
+      "Net-(D13-A)": [
         "SYS_HV"
       ],
       "Net-(D15-A)": [
@@ -700,6 +728,9 @@
         "SYS_HV"
       ],
       "Net-(U12-VIN)": [
+        "SYS_HV"
+      ],
+      "Net-(U15-VIN)": [
         "SYS_HV"
       ],
       "PWR_CAN": [
@@ -893,7 +924,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "C54,#PWR245",
+    "used_designators": "X1,#PWR1-246,C1-55,U1-20,D1-18,RLY1-2,TP1-32,R1-93,Q1-6,USB1-2,CN1-12,J1-2,L1-3,F1-6,RJ1,SW1-5",
     "variants": []
   },
   "sheets": [
