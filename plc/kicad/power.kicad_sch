@@ -4681,13 +4681,23 @@
 	)
 	(text "2Amps Fuse"
 		(exclude_from_sim no)
-		(at 247.65 33.655 0)
+		(at 257.175 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "1e2c303f-ca26-46e5-82c9-30ee553a3347")
+	)
+	(text "2Amps Fuse"
+		(exclude_from_sim no)
+		(at 332.74 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21d29825-2e5a-4eb9-bc63-e203f7257523")
 	)
 	(text "Auxiliary 3.3V PSU"
 		(exclude_from_sim no)
@@ -4814,6 +4824,12 @@
 		(uuid "2330713b-c3a2-405d-a048-ee1a178cf149")
 	)
 	(junction
+		(at 255.905 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244fef06-6356-401f-9a60-98523a9569e1")
+	)
+	(junction
 		(at 51.435 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4836,12 +4852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38514f55-f1d9-4e8d-b609-0c2211285d9d")
-	)
-	(junction
-		(at 270.51 55.245)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a838361-eeb6-4ef9-961d-4bfd0a452ed1")
 	)
 	(junction
 		(at 51.435 53.975)
@@ -5333,7 +5343,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 55.245) (xy 261.62 53.975)
+			(xy 243.205 55.245) (xy 243.205 53.975)
 		)
 		(stroke
 			(width 0)
@@ -5400,16 +5410,6 @@
 			(type default)
 		)
 		(uuid "1ea03a18-40ae-439f-8b34-bd6b83329206")
-	)
-	(wire
-		(pts
-			(xy 280.035 55.245) (xy 270.51 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f21b656-df14-4a16-824c-ae70d90de7e4")
 	)
 	(wire
 		(pts
@@ -6183,16 +6183,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 55.245) (xy 261.62 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "593c8dd0-4c41-4aee-a82d-ab8b9ef7e4e1")
-	)
-	(wire
-		(pts
 			(xy 354.33 236.855) (xy 351.79 236.855)
 		)
 		(stroke
@@ -6543,16 +6533,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 29.845) (xy 261.62 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a2d723-3977-4b5f-994b-2dd7b1c228bd")
-	)
-	(wire
-		(pts
 			(xy 82.55 121.92) (xy 82.55 124.46)
 		)
 		(stroke
@@ -6713,7 +6693,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 43.815) (xy 261.62 41.91)
+			(xy 243.205 43.815) (xy 243.205 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6803,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.035 29.21) (xy 280.035 31.75)
+			(xy 269.875 29.21) (xy 269.875 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6873,6 +6853,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.875 41.91) (xy 269.875 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6a6bb1-9d7d-4441-a80e-126cefafffd0")
+	)
+	(wire
+		(pts
 			(xy 381.635 215.9) (xy 381.635 214.63)
 		)
 		(stroke
@@ -6923,7 +6913,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 56.515) (xy 270.51 55.245)
+			(xy 255.905 56.515) (xy 255.905 55.245)
 		)
 		(stroke
 			(width 0)
@@ -7113,6 +7103,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.905 55.245) (xy 269.875 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd9b016-efb4-46ee-b368-b2ab06192f3b")
+	)
+	(wire
+		(pts
 			(xy 85.725 181.61) (xy 116.205 181.61)
 		)
 		(stroke
@@ -7120,6 +7120,16 @@
 			(type default)
 		)
 		(uuid "d3fc3e9e-8d73-46c6-ba1e-4768943290a6")
+	)
+	(wire
+		(pts
+			(xy 243.205 29.845) (xy 243.205 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41adc50-f436-4993-bd1f-dc684de1737f")
 	)
 	(wire
 		(pts
@@ -7280,6 +7290,16 @@
 			(type default)
 		)
 		(uuid "e78b0bff-7f2c-49b2-b6f1-d7f261935141")
+	)
+	(wire
+		(pts
+			(xy 243.205 55.245) (xy 255.905 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f256e0-9a37-4516-975e-ced3a705c56a")
 	)
 	(wire
 		(pts
@@ -7463,7 +7483,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.035 55.245) (xy 280.035 53.975)
+			(xy 269.875 55.245) (xy 269.875 53.975)
 		)
 		(stroke
 			(width 0)
@@ -8033,7 +8053,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 257.175 22.86) (xy 257.175 62.23) (xy 287.655 62.23) (xy 287.655 22.86)
+				(xy 236.855 22.86) (xy 236.855 62.23) (xy 291.465 62.23) (xy 291.465 22.86)
 			)
 			(stroke
 				(width 0)
@@ -8218,7 +8238,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 257.175 22.86 0)
+		(at 236.855 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8227,7 +8247,7 @@
 		)
 		(uuid "93bfedd6-36b9-4ac7-bfed-bdd467d62196")
 		(property "Net Class" "SYS_LV"
-			(at 254 18.415 0)
+			(at 233.68 18.415 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8238,7 +8258,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 172.085 44.45 90)
+			(at 151.765 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8585,7 +8605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9598 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8666,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 46.355 90)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.943 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -8908,7 +8928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.7898 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -8990,7 +9010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.1998 253.365 0)
 			(hide yes)
 			(show_name no)
@@ -9071,7 +9091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 148.463 90)
 			(hide yes)
 			(show_name no)
@@ -9354,7 +9374,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 270.51 56.515 180)
+		(at 255.905 56.515 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9364,7 +9384,7 @@
 		(dnp no)
 		(uuid "1d87b2d7-d41b-483e-9664-828fcaaaaa26")
 		(property "Reference" "#PWR0147"
-			(at 270.51 52.705 0)
+			(at 255.905 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9375,7 +9395,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 270.51 60.325 0)
+			(at 255.905 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9385,7 +9405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 56.515 0)
+			(at 255.905 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,7 +9416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 56.515 0)
+			(at 255.905 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9407,7 +9427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 270.51 56.515 0)
+			(at 255.905 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9706,7 +9726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 113.3602 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.4002 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9945,7 +9965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.5948 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.597 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -10473,7 +10493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -11135,7 +11155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.4502 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11297,7 +11317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.9248 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11648,7 +11668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 207.645 90)
 			(hide yes)
 			(show_name no)
@@ -11729,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 81.915 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11935,7 +11955,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:BSMD1206C-1200T")
-		(at 261.62 36.83 270)
+		(at 243.205 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11945,7 +11965,7 @@
 		(dnp no)
 		(uuid "6a2b5773-306f-465b-a77e-34fc8caf58d5")
 		(property "Reference" "F6"
-			(at 239.395 36.83 90)
+			(at 245.745 36.195 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11955,7 +11975,7 @@
 			)
 		)
 		(property "Value" "BSMD1206C-1200T"
-			(at 247.65 38.735 90)
+			(at 254 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11965,7 +11985,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:F1206"
-			(at 254 36.83 0)
+			(at 235.585 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11976,7 +11996,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C41367223.pdf"
-			(at 251.46 36.83 0)
+			(at 233.045 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +12007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 36.83 0)
+			(at 243.205 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11998,7 +12018,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 248.92 36.83 0)
+			(at 230.505 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12009,7 +12029,7 @@
 			)
 		)
 		(property "MPN" "BSMD1206C-1200T"
-			(at 246.38 36.83 0)
+			(at 227.965 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12020,7 +12040,7 @@
 			)
 		)
 		(property "LCSC Part" "C41367223"
-			(at 243.84 36.83 0)
+			(at 225.425 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,7 +12176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.197 207.645 90)
 			(hide yes)
 			(show_name no)
@@ -12206,7 +12226,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:SS34_C908680")
-		(at 261.62 48.895 90)
+		(at 243.205 48.895 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12216,7 +12236,7 @@
 		(dnp no)
 		(uuid "73e32d24-5fcd-419c-a7f4-526135242ab3")
 		(property "Reference" "D15"
-			(at 266.7 48.26 90)
+			(at 248.285 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12226,7 +12246,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 266.7 50.8 90)
+			(at 248.285 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12236,7 +12256,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SMA_L4.3-W2.7-LS5.1-RD"
-			(at 269.24 48.895 0)
+			(at 250.825 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12247,7 +12267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C908680.pdf"
-			(at 271.78 48.895 0)
+			(at 253.365 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12258,7 +12278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 48.895 0)
+			(at 243.205 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12289,7 @@
 			)
 		)
 		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 274.32 48.895 0)
+			(at 255.905 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12280,7 +12300,7 @@
 			)
 		)
 		(property "MPN" "SS34"
-			(at 276.86 48.895 0)
+			(at 258.445 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12291,7 +12311,7 @@
 			)
 		)
 		(property "LCSC Part" "C908680"
-			(at 279.4 48.895 0)
+			(at 260.985 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12427,7 +12447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.125 39.0398 0)
 			(hide yes)
 			(show_name no)
@@ -12741,7 +12761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.027 64.135 90)
 			(hide yes)
 			(show_name no)
@@ -12791,7 +12811,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:BSMD1206C-1200T")
-		(at 280.035 36.83 270)
+		(at 269.875 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12801,7 +12821,7 @@
 		(dnp no)
 		(uuid "87acdad1-e3fc-4677-9c48-99e5458599f6")
 		(property "Reference" "F7"
-			(at 289.56 36.83 90)
+			(at 273.05 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12811,7 +12831,7 @@
 			)
 		)
 		(property "Value" "BSMD1206C-1200T"
-			(at 297.815 38.735 90)
+			(at 281.305 38.735 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12821,7 +12841,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:F1206"
-			(at 272.415 36.83 0)
+			(at 262.255 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,7 +12852,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C41367223.pdf"
-			(at 269.875 36.83 0)
+			(at 259.715 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12843,7 +12863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.035 36.83 0)
+			(at 269.875 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +12874,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 267.335 36.83 0)
+			(at 257.175 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,7 +12885,7 @@
 			)
 		)
 		(property "MPN" "BSMD1206C-1200T"
-			(at 264.795 36.83 0)
+			(at 254.635 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +12896,7 @@
 			)
 		)
 		(property "LCSC Part" "C41367223"
-			(at 262.255 36.83 0)
+			(at 252.095 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13173,7 +13193,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 280.035 29.21 0)
+		(at 269.875 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13183,7 +13203,7 @@
 		(dnp no)
 		(uuid "8b7fa74c-1fb7-48f2-a791-267dc75abdc2")
 		(property "Reference" "#PWR0210"
-			(at 280.035 33.02 0)
+			(at 269.875 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13194,7 +13214,7 @@
 			)
 		)
 		(property "Value" "VDBG"
-			(at 280.035 24.765 0)
+			(at 269.875 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13204,7 +13224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.035 29.21 0)
+			(at 269.875 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13215,7 +13235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.035 29.21 0)
+			(at 269.875 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13226,7 +13246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 280.035 29.21 0)
+			(at 269.875 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13613,7 +13633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 127.3048 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -13742,7 +13762,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:SS34_C908680")
-		(at 280.035 48.895 90)
+		(at 269.875 48.895 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13752,7 +13772,7 @@
 		(dnp no)
 		(uuid "9b2f7f52-7b7e-40da-976e-19c22dc32120")
 		(property "Reference" "D17"
-			(at 285.115 48.26 90)
+			(at 274.955 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13762,7 +13782,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 285.115 50.8 90)
+			(at 274.955 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13772,7 +13792,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SMA_L4.3-W2.7-LS5.1-RD"
-			(at 287.655 48.895 0)
+			(at 277.495 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13783,17 +13803,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C908680.pdf"
-			(at 290.195 48.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
 			(at 280.035 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -13804,8 +13813,19 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 269.875 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "GOODWORK(固得沃克)"
-			(at 292.735 48.895 0)
+			(at 282.575 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13816,7 +13836,7 @@
 			)
 		)
 		(property "MPN" "SS34"
-			(at 295.275 48.895 0)
+			(at 285.115 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13827,7 +13847,7 @@
 			)
 		)
 		(property "LCSC Part" "C908680"
-			(at 297.815 48.895 0)
+			(at 287.655 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13854,7 +13874,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 261.62 29.845 0)
+		(at 243.205 29.845 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13865,7 +13885,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cb218a8-5531-4277-bc06-db30cc7f6f44")
 		(property "Reference" "#PWR0146"
-			(at 261.62 33.655 0)
+			(at 243.205 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13876,7 +13896,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 261.62 24.765 0)
+			(at 243.205 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13886,7 +13906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 29.845 0)
+			(at 243.205 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13897,7 +13917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 29.845 0)
+			(at 243.205 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +13928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 261.62 29.845 0)
+			(at 243.205 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14660,7 +14680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6398 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14934,7 +14954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 83.693 90)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +15036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.943 125.095 90)
 			(hide yes)
 			(show_name no)
@@ -15097,7 +15117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -15179,7 +15199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.2552 263.525 0)
 			(hide yes)
 			(show_name no)
@@ -15260,7 +15280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 358.14 238.633 90)
 			(hide yes)
 			(show_name no)
@@ -15678,7 +15698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -15893,7 +15913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.387 239.395 90)
 			(hide yes)
 			(show_name no)
@@ -15974,7 +15994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.597 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -16212,7 +16232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.492 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -16293,7 +16313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 79.502 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -16375,7 +16395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.8348 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -16615,7 +16635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 326.0852 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -16862,7 +16882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 136.525 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -17057,7 +17077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.9252 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17295,7 +17315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6598 255.905 0)
 			(hide yes)
 			(show_name no)
@@ -17376,7 +17396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.077 259.715 90)
 			(hide yes)
 			(show_name no)
@@ -17724,7 +17744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.995 126.238 90)
 			(hide yes)
 			(show_name no)
@@ -17884,7 +17904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.212 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -17967,7 +17987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 393.3952 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -18216,7 +18236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.322 219.075 90)
 			(hide yes)
 			(show_name no)
@@ -18764,7 +18784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 382.6002 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -18846,7 +18866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6398 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18928,7 +18948,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.7998 43.18 0)
 			(hide yes)
 			(show_name no)

@@ -5,6 +5,129 @@
 	(uuid "def6b5a7-6250-42d0-b581-5c47d0c50a71")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -290,6 +413,243 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LibrePLC32:AHT20_C2757850"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AHT20_C2757850"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LibrePLC32:SENSOR-SMD_L3.0-W3.0-P1.00-BR"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2757850.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "广州奥松"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AHT20"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2757850"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Humidity Sensors/Temperature and Humidity Sensors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AHT20_C2757850_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3556,6 +3916,18 @@
 		)
 	)
 	(rectangle
+		(start 170.815 243.205)
+		(end 234.315 272.415)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "36e2df11-d995-42bf-bcb4-55476ed9c554")
+	)
+	(rectangle
 		(start 222.885 22.225)
 		(end 398.78 150.495)
 		(stroke
@@ -3590,6 +3962,18 @@
 			(type none)
 		)
 		(uuid "ca2dac0c-0e1a-4833-9846-eaea82bc6a46")
+	)
+	(text "AHT20 Temperature & Humidity Sensor"
+		(exclude_from_sim no)
+		(at 192.405 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4a4509d7-327f-4cf9-8077-4636172e8be6")
 	)
 	(text "CP2102N USB Bridge"
 		(exclude_from_sim no)
@@ -3738,6 +4122,10 @@
 		(uuid "a7b0ceb4-dced-474d-be78-28d6c64d240c")
 	)
 	(no_connect
+		(at 193.675 259.715)
+		(uuid "adc495e5-2bba-4ad1-a0d9-b039699a68d7")
+	)
+	(no_connect
 		(at 83.82 244.475)
 		(uuid "b33a4a3f-102f-4c72-9328-c67c538080b8")
 	)
@@ -3766,11 +4154,15 @@
 		(uuid "e929f7da-f696-46b8-ad03-cb7110ecadc8")
 	)
 	(no_connect
+		(at 211.455 259.715)
+		(uuid "f74c2bd0-3400-4f37-bd62-aa4f7183a093")
+	)
+	(no_connect
 		(at 316.865 63.5)
 		(uuid "f96d0dfa-753f-4bd2-ba39-63db71d2b907")
 	)
 	(bus_entry
-		(at 146.685 90.17)
+		(at 150.495 90.17)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3779,7 +4171,7 @@
 		(uuid "32d38ae1-b3fd-427b-a463-312fd85dab83")
 	)
 	(bus_entry
-		(at 146.685 85.09)
+		(at 150.495 85.09)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3788,7 +4180,7 @@
 		(uuid "92bf4c74-11f6-44f8-af52-21a5a5684fbd")
 	)
 	(bus_entry
-		(at 146.685 82.55)
+		(at 150.495 82.55)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3797,7 +4189,7 @@
 		(uuid "cae46fed-22dc-4bff-be30-25570e54c726")
 	)
 	(bus_entry
-		(at 146.685 87.63)
+		(at 150.495 87.63)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3877,6 +4269,26 @@
 	)
 	(wire
 		(pts
+			(xy 94.615 80.01) (xy 104.775 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac15816-d7e5-4fe6-a0a9-164a1ee5a3c7")
+	)
+	(wire
+		(pts
+			(xy 216.535 262.255) (xy 211.455 262.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dedbe88-8db0-4e0a-b0b9-eb8b6a5b58db")
+	)
+	(wire
+		(pts
 			(xy 57.15 257.175) (xy 60.96 257.175)
 		)
 		(stroke
@@ -3907,6 +4319,26 @@
 	)
 	(wire
 		(pts
+			(xy 94.615 72.39) (xy 104.775 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d107ac-b22d-42c1-8c1c-920f091c361b")
+	)
+	(wire
+		(pts
+			(xy 94.615 77.47) (xy 104.775 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c2700b-0bb8-47e4-b2be-208fb3d21049")
+	)
+	(wire
+		(pts
 			(xy 337.185 128.27) (xy 337.185 124.46)
 		)
 		(stroke
@@ -3934,6 +4366,16 @@
 			(type default)
 		)
 		(uuid "19d7f6a4-5585-4fba-87ef-71e29d3e472c")
+	)
+	(wire
+		(pts
+			(xy 94.615 69.85) (xy 104.775 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5dc067-e484-44a3-8828-7cae8d4f1ba7")
 	)
 	(wire
 		(pts
@@ -4107,7 +4549,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 82.55) (xy 144.145 82.55)
+			(xy 135.255 82.55) (xy 147.955 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4134,6 +4576,16 @@
 			(type default)
 		)
 		(uuid "3b753b69-393d-4d92-b648-f8c06cd0a96c")
+	)
+	(wire
+		(pts
+			(xy 187.96 262.255) (xy 193.675 262.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c36b329-082c-44e0-b8a6-5cad3fa070b3")
 	)
 	(wire
 		(pts
@@ -4174,6 +4626,16 @@
 			(type default)
 		)
 		(uuid "3f473126-057d-458d-9971-809391174288")
+	)
+	(wire
+		(pts
+			(xy 140.97 90.17) (xy 135.255 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402111a7-e250-4277-a7fd-4a8f338b31fe")
 	)
 	(wire
 		(pts
@@ -4237,6 +4699,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 95.25) (xy 135.255 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470aa83a-e922-46bb-a722-c0bc00737238")
+	)
+	(wire
+		(pts
+			(xy 187.96 264.795) (xy 193.675 264.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e05c14-0123-4c29-9504-a6484e08ee29")
+	)
+	(wire
+		(pts
 			(xy 368.3 46.99) (xy 368.3 48.895)
 		)
 		(stroke
@@ -4265,9 +4747,19 @@
 		)
 		(uuid "4d14dbda-c826-436b-9398-fca12cb45dd9")
 	)
+	(wire
+		(pts
+			(xy 216.535 264.795) (xy 211.455 264.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc6e5bc-f31c-49ee-927b-c353340d7e96")
+	)
 	(bus
 		(pts
-			(xy 146.685 81.28) (xy 146.685 92.71)
+			(xy 150.495 81.28) (xy 150.495 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4427,6 +4919,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 259.715) (xy 187.96 262.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baf74a7-b541-41b5-9dfe-8587d8a74c90")
+	)
+	(wire
+		(pts
 			(xy 263.525 68.58) (xy 278.765 68.58)
 		)
 		(stroke
@@ -4507,6 +5009,16 @@
 	)
 	(wire
 		(pts
+			(xy 216.535 259.715) (xy 216.535 262.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9b337-8196-4ef3-8bdd-c624e82aa959")
+	)
+	(wire
+		(pts
 			(xy 263.525 72.39) (xy 263.525 68.58)
 		)
 		(stroke
@@ -4544,6 +5056,16 @@
 			(type default)
 		)
 		(uuid "7f053487-38fb-4830-a57f-f4a10a05aa77")
+	)
+	(wire
+		(pts
+			(xy 94.615 74.93) (xy 104.775 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80be05e6-6f64-43cc-98d2-3491f4825332")
 	)
 	(wire
 		(pts
@@ -4617,7 +5139,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 87.63) (xy 135.255 87.63)
+			(xy 147.955 87.63) (xy 135.255 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4837,6 +5359,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 72.39) (xy 135.255 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78f81af-4d07-4704-8aec-95b547c2e775")
+	)
+	(wire
+		(pts
 			(xy 269.875 58.42) (xy 278.765 58.42)
 		)
 		(stroke
@@ -4847,7 +5379,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 85.09) (xy 135.255 85.09)
+			(xy 94.615 82.55) (xy 104.775 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d06682-02a8-4bcd-ac51-680238444dae")
+	)
+	(wire
+		(pts
+			(xy 147.955 85.09) (xy 135.255 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4864,6 +5406,16 @@
 			(type default)
 		)
 		(uuid "ceb2584b-ab28-400e-836a-1d46ff478edd")
+	)
+	(wire
+		(pts
+			(xy 94.615 67.31) (xy 104.775 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ec4805-b01f-499e-bc6e-dd1a2fe586f8")
 	)
 	(wire
 		(pts
@@ -4914,6 +5466,16 @@
 			(type default)
 		)
 		(uuid "d62979a7-fab4-47e0-9cab-47bbd16dfb45")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 135.255 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6322743-e58a-4826-83fb-9e78ebfbfba8")
 	)
 	(wire
 		(pts
@@ -5007,6 +5569,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 100.33) (xy 135.255 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7475db-4160-47d5-addc-93693f32479c")
+	)
+	(wire
+		(pts
+			(xy 94.615 64.77) (xy 104.775 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e011a4c2-2653-4725-9690-82e93cfb62b3")
+	)
+	(wire
+		(pts
 			(xy 368.3 59.055) (xy 368.3 64.135)
 		)
 		(stroke
@@ -5087,7 +5669,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.145 80.01) (xy 135.255 80.01)
+			(xy 147.955 80.01) (xy 135.255 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5187,6 +5769,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 102.87) (xy 135.255 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1593d0-4851-4094-9e54-70c6ef6af482")
+	)
+	(wire
+		(pts
 			(xy 144.145 97.79) (xy 135.255 97.79)
 		)
 		(stroke
@@ -5236,7 +5828,7 @@
 		(uuid "0dfd06e8-f1ed-411f-b049-ac6398229053")
 	)
 	(label "MCU_DI2"
-		(at 135.255 82.55 0)
+		(at 139.065 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,7 +5868,7 @@
 		(uuid "2961024a-b219-48c0-b9f5-7fc6e7a37c60")
 	)
 	(label "MCU_DI3"
-		(at 135.255 85.09 0)
+		(at 139.065 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5346,7 +5938,7 @@
 		(uuid "5e27a5eb-b9c1-4cb8-8c9b-9709d6fbb348")
 	)
 	(label "MCU_DI4"
-		(at 135.255 87.63 0)
+		(at 139.065 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5436,7 +6028,7 @@
 		(uuid "a1676b3e-9d1b-4261-9b1a-7e38488e105e")
 	)
 	(label "MCU_DI1"
-		(at 135.255 80.01 0)
+		(at 139.065 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5525,6 +6117,17 @@
 		)
 		(uuid "f9097d73-21f5-48fa-ba50-31663d007345")
 	)
+	(hierarchical_label "I2C_SDA"
+		(shape output)
+		(at 216.535 264.795 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0df4f8fa-4e73-4918-93b3-c45c7e22ce76")
+	)
 	(hierarchical_label "ETH_MOSI"
 		(shape output)
 		(at 94.615 90.17 180)
@@ -5579,6 +6182,17 @@
 			(justify left)
 		)
 		(uuid "37ea82c7-8773-42fd-a63b-6eacaa0274e9")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 187.96 264.795 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56dba8fe-9769-483f-abf0-e6491cefced5")
 	)
 	(hierarchical_label "ETH_MISO"
 		(shape input)
@@ -5692,7 +6306,7 @@
 	)
 	(hierarchical_label "MCU_DI"
 		(shape input)
-		(at 146.685 92.71 0)
+		(at 150.495 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5735,6 +6349,83 @@
 		(uuid "fe20b450-b59c-4940-b687-bf5eaf429a45")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07d9485b-f33c-4a15-bace-67e04f99b400")
+		(property "Reference" "TP12"
+			(at 147.32 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfa323ab-afe9-44e5-8945-31ef93d5b1b1")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.705 38.1 0)
 		(unit 1)
@@ -5768,7 +6459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.927 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -5849,7 +6540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 258.7752 90.805 0)
 			(hide yes)
 			(show_name no)
@@ -5892,6 +6583,160 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1aebea15-5108-4ec4-9476-2f352930ab90")
+		(property "Reference" "TP11"
+			(at 147.32 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8afe68b6-a1fb-410f-bac7-bcf78fdaf091")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b4db341-db63-4c80-9056-ea569c401138")
+		(property "Reference" "TP3"
+			(at 88.265 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29b6e897-d8e2-43d7-9e72-56f2e26fbdd9")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6087,7 +6932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.9448 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +7320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 328.295 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -6557,7 +7402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 265.303 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6600,6 +7445,84 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 187.96 259.715 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "382d22be-9038-4443-95a9-f16d246c2073")
+		(property "Reference" "#PWR0223"
+			(at 187.96 263.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 185.42 255.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 187.96 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfc2940b-7a95-47e1-94c6-b8b9d95c864f")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -7230,6 +8153,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45db9c44-e570-42a6-a481-97469f0a9b68")
+		(property "Reference" "TP6"
+			(at 88.265 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cce117c1-4553-4fb3-bc7b-104f779b5dfb")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 140.97 0)
 		(unit 1)
@@ -7301,6 +8301,83 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c8e228f-6f69-4492-ba08-3d63445cd28f")
+		(property "Reference" "TP2"
+			(at 88.265 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6752501b-81d5-4db8-b86e-b28d002251cb")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7386,6 +8463,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50bf3fe6-f4f9-4e24-ab0b-fda7b5c6a97d")
+		(property "Reference" "TP8"
+			(at 88.265 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f0408e1-f693-48c9-9be8-d15be3fd232a")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5598a365-0f3e-4953-97a4-ea2eb6651bbe")
+		(property "Reference" "TP10"
+			(at 147.32 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b944f25-8ae5-40bc-aa46-389f9c62912e")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 270.51 86.995 180)
 		(unit 1)
@@ -7419,7 +8650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 272.288 86.995 90)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.085 246.253 90)
 			(hide yes)
 			(show_name no)
@@ -8286,6 +9517,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70140fca-e915-4e8f-8a46-c96e3d2b51d6")
+		(property "Reference" "TP4"
+			(at 88.265 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "750e6de6-7f58-4e32-906a-7a47fb5c65c5")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LibrePLC32:GT-USB-7055BB")
 		(at 352.425 116.84 180)
 		(unit 1)
@@ -8522,6 +9830,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "742e1c08-5583-48cb-8a26-efbe35e81890")
+		(property "Reference" "TP9"
+			(at 147.32 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2160e059-b0ab-4c32-8019-8bacde8d5571")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.965 254.635 0)
 		(unit 1)
@@ -8594,6 +9979,84 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 216.535 259.715 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cc69086-cdff-4078-9345-c4a0be1099fc")
+		(property "Reference" "#PWR0152"
+			(at 216.535 253.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.535 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.535 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 216.535 259.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edcce526-b758-48f0-9ad4-ea933e7979b7")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -9299,7 +10762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.877 121.285 90)
 			(hide yes)
 			(show_name no)
@@ -9503,6 +10966,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a400757e-cc11-4c48-a32e-7b8de0f49266")
+		(property "Reference" "TP5"
+			(at 88.265 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a507a11-f8c1-4e53-b5ad-1059e27c3d77")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 297.815 41.275 180)
 		(unit 1)
@@ -9613,7 +11153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 40.132 121.285 90)
 			(hide yes)
 			(show_name no)
@@ -9814,7 +11354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.6898 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9863,6 +11403,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0bfa26d-def5-4695-90b9-4c8f3b430743")
+		(property "Reference" "TP7"
+			(at 88.265 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc8cfbc1-1d85-4d25-81af-b05ac668e5b8")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 94.615 252.095 90)
 		(unit 1)
@@ -9893,7 +11510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 94.615 253.873 90)
 			(hide yes)
 			(show_name no)
@@ -10093,6 +11710,83 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc8ee497-f2a6-47cd-83c6-afef81e99af8")
+		(property "Reference" "TP13"
+			(at 147.32 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44694538-3a6a-42c1-8e25-76b4db071604")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10327,6 +12021,83 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cda95cc9-27dc-4787-bc83-ec5279db965d")
+		(property "Reference" "TP14"
+			(at 147.32 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 140.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16b40b03-8cac-4ade-9960-00e6072491bb")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -10675,7 +12446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 356.87 52.197 90)
 			(hide yes)
 			(show_name no)
@@ -10756,7 +12527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 249.428 86.995 90)
 			(hide yes)
 			(show_name no)
@@ -10912,7 +12683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 356.87 70.612 90)
 			(hide yes)
 			(show_name no)
@@ -10994,7 +12765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 186.817 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -11152,7 +12923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.665 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -11280,6 +13051,131 @@
 		)
 	)
 	(symbol
+		(lib_id "LibrePLC32:AHT20_C2757850")
+		(at 202.565 262.255 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed219e8-2004-45d4-b761-605cef650908")
+		(property "Reference" "U18"
+			(at 202.565 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AHT20_C2757850"
+			(at 202.565 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibrePLC32:SENSOR-SMD_L3.0-W3.0-P1.00-BR"
+			(at 202.565 272.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2757850.pdf"
+			(at 202.565 274.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 202.565 262.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "广州奥松"
+			(at 202.565 277.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AHT20"
+			(at 202.565 280.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2757850"
+			(at 202.565 282.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e2796ab-5b22-4b35-94c5-23d390f9fd98")
+		)
+		(pin "5"
+			(uuid "36785efe-0d54-47c7-9ccf-b6f22203b3c1")
+		)
+		(pin "1"
+			(uuid "2caf0569-66be-4059-a479-d4d4487623fa")
+		)
+		(pin "6"
+			(uuid "e4112a50-7290-4994-af3f-8a03b73d4356")
+		)
+		(pin "3"
+			(uuid "d847089b-11f0-4f93-8781-ff2529bbf986")
+		)
+		(pin "4"
+			(uuid "a78c5d73-476e-400b-93d0-cbb1c8970c81")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 371.475 119.38 90)
 		(unit 1)
@@ -11310,7 +13206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 371.475 121.158 90)
 			(hide yes)
 			(show_name no)
@@ -11513,6 +13409,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 94.615 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f69906d6-2752-4322-bd7d-13f70d777201")
+		(property "Reference" "TP1"
+			(at 88.265 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 85.725 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 94.615 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.615 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 94.615 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa86514c-fd68-49f4-87f7-3bdf113535d1")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7ef97c26-a6eb-42fc-a9a7-66112d2bed2b"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 252.095 66.675 180)
 		(unit 1)
@@ -11545,7 +13518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 251.1298 62.865 0)
 			(hide yes)
 			(show_name no)

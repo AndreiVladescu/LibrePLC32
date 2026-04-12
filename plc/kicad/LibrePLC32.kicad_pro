@@ -693,6 +693,9 @@
       "Net-(D15-A)": [
         "SYS_LV"
       ],
+      "Net-(D17-A)": [
+        "SYS_LV"
+      ],
       "Net-(D9-A)": [
         "SYS_HV"
       ],
@@ -851,7 +854,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "X1,#PWR1-225,C1-51,RLY1-2,R1-94,Q1-6,D1-18,U1-17,USB1-5,CN1-11,L1-3,F1-7,RJ1,SW1-5",
+    "used_designators": "#PWR152,#PWR223,U18,TP1-14",
     "variants": []
   },
   "sheets": [
