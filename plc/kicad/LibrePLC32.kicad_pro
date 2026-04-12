@@ -717,6 +717,9 @@
       "V_FIELD": [
         "SYS_HV"
       ],
+      "Vbat": [
+        "SYS_LV"
+      ],
       "unconnected-(D17-A-Pad2)": [
         "SYS_LV"
       ],
@@ -890,7 +893,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "CN12,J1-3,C51,#PWR152,#PWR223,#PWR225-236,U18,TP1-30",
+    "used_designators": "C54,#PWR245",
     "variants": []
   },
   "sheets": [
