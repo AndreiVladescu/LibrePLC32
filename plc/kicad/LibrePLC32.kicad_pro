@@ -890,7 +890,7 @@
         "uuid": "ef4c1a27-85a3-413a-9f93-a41c4f97eee5"
       }
     ],
-    "used_designators": "J1-3,C51,#PWR152,#PWR223,#PWR225-236,U18,TP1-30",
+    "used_designators": "CN12,J1-3,C51,#PWR152,#PWR223,#PWR225-236,U18,TP1-30",
     "variants": []
   },
   "sheets": [

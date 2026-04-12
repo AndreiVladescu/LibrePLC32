@@ -4318,8 +4318,8 @@
 		(uuid "e0b81462-9bbd-4555-8a98-b434a0c86d4a")
 	)
 	(rectangle
-		(start 351.155 179.07)
-		(end 399.415 215.9)
+		(start 321.31 179.07)
+		(end 399.415 233.68)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4474,9 +4474,9 @@
 		)
 		(uuid "ab79b13e-60e3-4f39-bd39-5224939e07a3")
 	)
-	(text "Main Power Input"
+	(text "Main Power Connectors"
 		(exclude_from_sim no)
-		(at 361.95 182.245 0)
+		(at 359.41 182.245 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4566,6 +4566,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a1b2aaa-d220-46ee-ad5f-fa3c3999062b")
+	)
+	(junction
+		(at 342.9 207.645)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ae3d430-01bb-4214-a36a-7dcc59723622")
 	)
 	(junction
 		(at 172.212 127.127)
@@ -5231,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 200.66) (xy 374.65 198.755)
+			(xy 342.9 215.9) (xy 342.9 207.645)
 		)
 		(stroke
 			(width 0)
@@ -5441,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 380.365 200.025) (xy 380.365 201.93)
+			(xy 348.615 211.455) (xy 348.615 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5798,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "3b922b2a-7f59-41f6-a45e-5cf0e4874e3e")
+	)
+	(wire
+		(pts
+			(xy 377.19 207.01) (xy 377.19 205.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9b1f3c-118b-4eb6-b7f1-72f25d325914")
 	)
 	(wire
 		(pts
@@ -6238,6 +6254,16 @@
 			(type default)
 		)
 		(uuid "5e62acab-c40a-40f9-999d-99b925328e5b")
+	)
+	(wire
+		(pts
+			(xy 374.65 207.645) (xy 374.65 205.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed0ca09-5b04-45fa-9801-8b0b71c73439")
 	)
 	(wire
 		(pts
@@ -6771,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 212.725) (xy 374.65 212.725)
+			(xy 354.33 227.965) (xy 342.9 227.965)
 		)
 		(stroke
 			(width 0)
@@ -6981,7 +7007,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 200.025) (xy 377.19 198.755)
+			(xy 345.44 211.455) (xy 345.44 205.105)
 		)
 		(stroke
 			(width 0)
@@ -7228,6 +7254,16 @@
 			(type default)
 		)
 		(uuid "a1eddc17-2707-44de-a5fd-121cdaafa710")
+	)
+	(wire
+		(pts
+			(xy 342.9 207.645) (xy 342.9 205.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a235bed1-4ae5-44fe-8f7b-df1031a43b23")
 	)
 	(wire
 		(pts
@@ -7901,7 +7937,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 212.725) (xy 374.65 210.82)
+			(xy 342.9 227.965) (xy 342.9 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7981,7 +8017,7 @@
 	)
 	(wire
 		(pts
-			(xy 380.365 200.025) (xy 377.19 200.025)
+			(xy 348.615 211.455) (xy 345.44 211.455)
 		)
 		(stroke
 			(width 0)
@@ -8148,6 +8184,16 @@
 			(type default)
 		)
 		(uuid "f04040e6-6ab5-4f2c-a087-882cf4618e13")
+	)
+	(wire
+		(pts
+			(xy 342.9 207.645) (xy 374.65 207.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bb62bd-d794-4306-8121-73b87430263b")
 	)
 	(wire
 		(pts
@@ -9294,7 +9340,7 @@
 	)
 	(hierarchical_label "V_IN_MAIN"
 		(shape output)
-		(at 386.08 212.725 0)
+		(at 354.33 227.965 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9365,7 +9411,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 372.7449 199.0724) (xy 372.7449 214.9474) (xy 376.5549 214.9475) (xy 376.5549 199.0725)
+				(xy 340.9949 214.3124) (xy 340.9949 230.1874) (xy 344.8049 230.1875) (xy 344.8049 214.3125)
 			)
 			(stroke
 				(width 0)
@@ -9434,7 +9480,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 372.745 201.295 90)
+		(at 340.995 216.535 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9443,7 +9489,7 @@
 		)
 		(uuid "fafc2456-2247-498c-af58-eb91b26c1dbd")
 		(property "Net Class" "SYS_HV"
-			(at 361.95 201.295 0)
+			(at 330.2 216.535 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9454,13 +9500,90 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 394.335 286.385 0)
+			(at 362.585 301.625 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 377.19 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "033379d8-3cd2-4e00-ad39-4df4c8f58146")
+		(property "Reference" "#PWR0234"
+			(at 377.19 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "031fd583-0fa3-4a08-ac38-44991a0538c9")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
+					(reference "#PWR0234")
+					(unit 1)
 				)
 			)
 		)
@@ -10014,7 +10137,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:BSMD1206C-1600T")
-		(at 374.65 205.74 90)
+		(at 342.9 220.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10024,7 +10147,7 @@
 		(dnp no)
 		(uuid "100b3ba0-ad1c-4491-91b5-00ae81f39e36")
 		(property "Reference" "F1"
-			(at 370.205 204.47 90)
+			(at 338.455 219.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10035,7 +10158,7 @@
 			)
 		)
 		(property "Value" "BSMD1206C-1600T"
-			(at 353.695 207.01 90)
+			(at 321.945 222.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10046,7 +10169,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:F1206"
-			(at 382.27 205.74 0)
+			(at 350.52 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10057,7 +10180,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49328461.pdf"
-			(at 384.81 205.74 0)
+			(at 353.06 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +10191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 205.74 0)
+			(at 342.9 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10202,7 @@
 			)
 		)
 		(property "Manufacturer" "BHFUSE(佰宏)"
-			(at 387.35 205.74 0)
+			(at 355.6 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10090,7 +10213,7 @@
 			)
 		)
 		(property "MPN" "BSMD1206C-1600T"
-			(at 389.89 205.74 0)
+			(at 358.14 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,7 +10224,7 @@
 			)
 		)
 		(property "LCSC Part" "C49328461"
-			(at 392.43 205.74 0)
+			(at 360.68 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17487,7 +17610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 380.365 201.93 0)
+		(at 348.615 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17497,7 +17620,7 @@
 		(dnp no)
 		(uuid "9a04f605-193d-4ced-b0dc-df17cc60a916")
 		(property "Reference" "#PWR067"
-			(at 380.365 208.28 0)
+			(at 348.615 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17508,7 +17631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.905 205.74 0)
+			(at 351.155 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17518,7 +17641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 380.365 201.93 0)
+			(at 348.615 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17529,7 +17652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 380.365 201.93 0)
+			(at 348.615 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17540,7 +17663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 380.365 201.93 0)
+			(at 348.615 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18122,6 +18245,120 @@
 			(project "LibrePLC32"
 				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibrePLC32:DB128V-5.08-2P-GN-S")
+		(at 375.92 201.295 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a84ff2e6-1b0f-49c2-9c72-6cbd22ec5bb7")
+		(property "Reference" "CN12"
+			(at 372.11 193.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DB128V-5.08-2P-GN-S"
+			(at 372.11 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LibrePLC32:CONN-TH_2P-P5.08_DIBO_DB128V-5.08"
+			(at 384.81 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2915639.pdf"
+			(at 387.35 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DORABO(地博电气)"
+			(at 389.89 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DB128V-5.08-2P-GN-S"
+			(at 392.43 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2915639"
+			(at 394.97 201.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "027ba468-06d6-4f3e-9726-f371275f7a90")
+		)
+		(pin "1"
+			(uuid "14442a2b-86f9-4777-9e9b-7a729f364ae4")
+		)
+		(instances
+			(project "LibrePLC32"
+				(path "/ef4c1a27-85a3-413a-9f93-a41c4f97eee5/7299de7e-bdc9-4cc1-ab0f-f2b9af304cf6"
+					(reference "CN12")
 					(unit 1)
 				)
 			)
@@ -19118,7 +19355,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:DB128V-5.08-2P-GN-S")
-		(at 375.92 194.945 90)
+		(at 344.17 201.295 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19128,7 +19365,7 @@
 		(dnp no)
 		(uuid "c180e60a-a0f4-413d-b7a4-6936a40e16ce")
 		(property "Reference" "CN1"
-			(at 372.11 186.69 90)
+			(at 340.36 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19139,7 +19376,7 @@
 			)
 		)
 		(property "Value" "DB128V-5.08-2P-GN-S"
-			(at 372.11 189.23 90)
+			(at 340.36 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19150,7 +19387,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:CONN-TH_2P-P5.08_DIBO_DB128V-5.08"
-			(at 384.81 194.945 0)
+			(at 353.06 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19161,7 +19398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2915639.pdf"
-			(at 387.35 194.945 0)
+			(at 355.6 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19172,7 +19409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 194.945 0)
+			(at 344.17 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19183,7 +19420,7 @@
 			)
 		)
 		(property "Manufacturer" "DORABO(地博电气)"
-			(at 389.89 194.945 0)
+			(at 358.14 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19194,7 +19431,7 @@
 			)
 		)
 		(property "MPN" "DB128V-5.08-2P-GN-S"
-			(at 392.43 194.945 0)
+			(at 360.68 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19205,7 +19442,7 @@
 			)
 		)
 		(property "LCSC Part" "C2915639"
-			(at 394.97 194.945 0)
+			(at 363.22 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
