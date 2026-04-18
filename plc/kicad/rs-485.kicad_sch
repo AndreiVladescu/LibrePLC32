@@ -1850,6 +1850,18 @@
 		(uuid "a70171b6-c7f2-4a53-9c55-e8ca73877758")
 	)
 	(rectangle
+		(start 37.465 111.125)
+		(end 88.265 151.765)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eafd98e7-be1b-4b37-b77f-6da5d4e22c6b")
+	)
+	(rectangle
 		(start 172.085 92.075)
 		(end 229.87 111.125)
 		(stroke
@@ -1870,6 +1882,27 @@
 			)
 		)
 		(uuid "48121594-1d55-4526-bde8-5e44649ee974")
+	)
+	(text "Termination Resistor"
+		(exclude_from_sim no)
+		(at 48.26 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6182c814-f3b3-416d-b3e1-8df554cbb47c")
+	)
+	(text "10 Ohm Resistors:\nCRCW0603010RJNEAHP"
+		(exclude_from_sim no)
+		(at 104.775 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c71036d6-fa6c-4c6c-b17e-dd154b487dbc")
 	)
 	(text "RS485 Connector"
 		(exclude_from_sim no)
@@ -1894,7 +1927,7 @@
 		(uuid "481e3c34-8115-4ba8-bff8-db0f2efb91ac")
 	)
 	(junction
-		(at 69.215 140.97)
+		(at 68.58 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a1a747f-b85b-48f7-a192-5d97fe71f8e0")
@@ -1906,7 +1939,7 @@
 		(uuid "9004fea5-03cf-43a1-900f-9aa12302f258")
 	)
 	(junction
-		(at 69.215 148.59)
+		(at 68.58 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18cbc90-843f-47c1-bf09-6f7a0335836b")
@@ -1999,7 +2032,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 138.43) (xy 189.865 138.43)
+			(xy 179.705 138.43) (xy 191.77 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2042,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.055 160.655) (xy 59.055 158.75)
+			(xy 58.42 144.145) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 127.635) (xy 189.865 128.905)
+			(xy 191.77 127.635) (xy 191.77 128.905)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 151.13) (xy 69.215 148.59)
+			(xy 68.58 134.62) (xy 68.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 148.59) (xy 83.185 148.59)
+			(xy 68.58 132.08) (xy 82.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 151.13) (xy 69.215 151.13)
+			(xy 66.04 134.62) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 140.97) (xy 69.215 140.97)
+			(xy 66.04 124.46) (xy 68.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.675 148.59) (xy 69.215 148.59)
+			(xy 66.04 132.08) (xy 68.58 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 136.525) (xy 189.865 138.43)
+			(xy 191.77 136.525) (xy 191.77 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127.635) (xy 189.865 127.635)
+			(xy 201.93 127.635) (xy 191.77 127.635)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 140.97) (xy 83.185 140.97)
+			(xy 68.58 124.46) (xy 82.55 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2401,7 @@
 		(uuid "1904a0f8-1897-46e5-afb3-0a48a23c5eaf")
 	)
 	(label "EXT_RS485_A"
-		(at 83.185 148.59 180)
+		(at 82.55 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2398,7 +2431,7 @@
 		(uuid "3ba4dbcc-3a58-4987-8f39-7f833f16f198")
 	)
 	(label "EXT_RS485_B"
-		(at 83.185 140.97 180)
+		(at 82.55 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2408,7 +2441,7 @@
 		(uuid "714a463e-8dee-4ed9-b4a4-273bf4031ce0")
 	)
 	(label "RS485_RXD"
-		(at 177.8 138.43 0)
+		(at 179.705 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3086,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.215 144.78 0)
+		(at 68.58 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3063,7 +3096,7 @@
 		(dnp no)
 		(uuid "4b84c8fc-f36d-4007-868a-de897114dcf2")
 		(property "Reference" "R81"
-			(at 64.135 142.24 0)
+			(at 63.5 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,7 +3107,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 64.135 144.78 0)
+			(at 63.5 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3085,7 +3118,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.437 144.78 90)
+			(at 66.802 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.215 144.78 0)
+			(at 68.58 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3140,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 69.215 144.78 0)
+			(at 68.58 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,7 +3167,7 @@
 	)
 	(symbol
 		(lib_id "LibrePLC32:MSK12C02")
-		(at 60.325 148.59 270)
+		(at 59.69 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3145,7 +3178,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f27ab7c-39b3-459f-af7e-bab0c62a5c5f")
 		(property "Reference" "SW5"
-			(at 57.785 133.985 90)
+			(at 57.15 117.475 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3155,7 +3188,7 @@
 			)
 		)
 		(property "Value" "MSK12C02"
-			(at 57.785 136.525 90)
+			(at 57.15 120.015 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3165,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" "LibrePLC32:SW-TH_MSK12C02"
-			(at 51.435 148.59 0)
+			(at 50.8 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3209,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_SHOU-HAN-MSK12C02_C431540.html"
-			(at 48.895 148.59 0)
+			(at 48.26 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.325 148.59 0)
+			(at 59.69 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3231,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 46.355 148.59 0)
+			(at 45.72 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3242,7 @@
 			)
 		)
 		(property "MPN" "MSK12C02"
-			(at 43.815 148.59 0)
+			(at 43.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3253,7 @@
 			)
 		)
 		(property "LCSC Part" "C431540"
-			(at 41.275 148.59 0)
+			(at 40.64 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +4013,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.055 160.655 0)
+		(at 58.42 144.145 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3991,7 +4024,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb474350-8c6d-4b07-817f-fdf723fa83fb")
 		(property "Reference" "#PWR0201"
-			(at 59.055 167.005 0)
+			(at 58.42 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.055 164.973 0)
+			(at 58.42 148.463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4012,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.055 160.655 0)
+			(at 58.42 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.055 160.655 0)
+			(at 58.42 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.055 160.655 0)
+			(at 58.42 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +4091,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.865 132.715 0)
+		(at 191.77 132.715 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4069,7 +4102,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4e52dfb-c254-4518-8968-3b59e768d404")
 		(property "Reference" "R84"
-			(at 192.405 131.4449 0)
+			(at 194.31 131.4449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4080,7 +4113,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 192.405 133.9849 0)
+			(at 194.31 133.9849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4091,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 188.087 132.715 90)
+			(at 189.992 132.715 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 132.715 0)
+			(at 191.77 132.715 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4146,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.865 132.715 0)
+			(at 191.77 132.715 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
