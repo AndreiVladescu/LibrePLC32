@@ -5320,6 +5320,16 @@
 		)
 		(uuid "0ad985fb-9635-49eb-854c-e0e4d4825caf")
 	)
+	(text "I2C Address 0b1010010/0x52\n"
+		(exclude_from_sim no)
+		(at 122.555 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b4d40fd-10ff-4b97-97b3-dc3f5ee5d545")
+	)
 	(text "Status LEDs"
 		(exclude_from_sim no)
 		(at 185.42 29.845 0)
@@ -5377,6 +5387,16 @@
 			)
 		)
 		(uuid "6f039f7d-34c9-4171-8359-656b4a6a7d30")
+	)
+	(text "I2C Address 0b0111000/0x38\n"
+		(exclude_from_sim no)
+		(at 146.685 253.365 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3970a17-6621-446b-80fb-e1d953c96b6a")
 	)
 	(text "Boot Circuit"
 		(exclude_from_sim no)
@@ -6880,16 +6900,6 @@
 			(type default)
 		)
 		(uuid "73c72ff4-c1ff-4487-85a3-35e434e4951e")
-	)
-	(wire
-		(pts
-			(xy 170.18 267.97) (xy 170.18 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c9b337-8196-4ef3-8bdd-c624e82aa959")
 	)
 	(bus
 		(pts
@@ -14292,7 +14302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 267.97 180)
+		(at 170.18 270.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14303,7 +14313,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cc69086-cdff-4078-9345-c4a0be1099fc")
 		(property "Reference" "#PWR099"
-			(at 170.18 261.62 0)
+			(at 176.53 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14314,17 +14324,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 263.525 0)
+			(at 173.99 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 267.97 0)
+			(at 170.18 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14335,7 +14346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 267.97 0)
+			(at 170.18 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14346,7 +14357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 267.97 0)
+			(at 170.18 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19021,7 +19032,7 @@
 		(fields_autoplaced yes)
 		(uuid "eed219e8-2004-45d4-b761-605cef650908")
 		(property "Reference" "U12"
-			(at 156.21 260.985 0)
+			(at 156.21 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19030,8 +19041,8 @@
 				)
 			)
 		)
-		(property "Value" "AHT20_C2757850"
-			(at 156.21 263.525 0)
+		(property "Value" "AHT20"
+			(at 156.21 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

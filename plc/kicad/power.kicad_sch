@@ -5053,6 +5053,18 @@
 		)
 		(uuid "1e2c303f-ca26-46e5-82c9-30ee553a3347")
 	)
+	(text "TO FIX MODE TO FLOATING!!"
+		(exclude_from_sim no)
+		(at 130.81 194.31 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "4b01cb3c-9e30-425e-886b-9e785801bf6a")
+	)
 	(text "1%"
 		(exclude_from_sim no)
 		(at 177.165 55.88 0)
@@ -20604,7 +20616,7 @@
 		(dnp no)
 		(uuid "ef9acbd1-cc7d-4b28-855c-83d76557a87c")
 		(property "Reference" "D14"
-			(at 310.515 233.68 0)
+			(at 311.15 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
