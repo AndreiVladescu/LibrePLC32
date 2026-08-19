@@ -5388,6 +5388,30 @@
 		)
 		(uuid "6f039f7d-34c9-4171-8359-656b4a6a7d30")
 	)
+	(text "SWITCH RX AND TX FOR UART"
+		(exclude_from_sim no)
+		(at 316.484 55.88 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "92d5bac7-6a60-4227-bd45-89c6b1416f0c")
+	)
+	(text "ADD MCU RST"
+		(exclude_from_sim no)
+		(at 75.565 47.625 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "936f72b4-5a24-4c22-8472-b582784cd78c")
+	)
 	(text "I2C Address 0b0111000/0x38\n"
 		(exclude_from_sim no)
 		(at 146.685 253.365 0)
@@ -5530,10 +5554,10 @@
 		(uuid "eb94ed78-a1f6-45aa-afc0-46d44579f8da")
 	)
 	(junction
-		(at 251.714 61.214)
+		(at 251.46 61.214)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f52d6577-9d91-4655-93b1-a97c38f12268")
+		(uuid "ec5ebe7d-2b7f-4fc4-a27d-b1329412a0c0")
 	)
 	(junction
 		(at 352.425 72.39)
@@ -5693,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.714 61.214) (xy 251.714 63.119)
+			(xy 251.46 61.214) (xy 251.46 62.865)
 		)
 		(stroke
 			(width 0)
@@ -6373,7 +6397,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.714 60.579) (xy 251.714 61.214)
+			(xy 251.46 59.69) (xy 251.46 61.214)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6417,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.714 73.279) (xy 251.714 70.739)
+			(xy 251.46 73.025) (xy 251.46 70.485)
 		)
 		(stroke
 			(width 0)
@@ -6500,16 +6524,6 @@
 			(type default)
 		)
 		(uuid "4c2d807c-f75b-4ef2-a00e-3a769523f2da")
-	)
-	(wire
-		(pts
-			(xy 251.714 61.214) (xy 277.114 61.214)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd9ead2-4007-469c-a6ef-84c5cb5e649a")
 	)
 	(wire
 		(pts
@@ -7560,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "cf85987c-4660-4605-a34c-bfd35ed1d1ea")
+	)
+	(wire
+		(pts
+			(xy 251.46 61.214) (xy 277.114 61.214)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06d80cb-bf45-4093-9072-b20b46cc98ea")
 	)
 	(wire
 		(pts
@@ -12219,7 +12243,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 251.714 60.579 0)
+		(at 251.46 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12230,7 +12254,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aefe341-99f5-438f-b5ca-9712ab237805")
 		(property "Reference" "#PWR0109"
-			(at 251.714 64.389 0)
+			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,7 +12265,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 251.714 55.499 0)
+			(at 251.46 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12251,7 +12275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.714 60.579 0)
+			(at 251.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12262,7 +12286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.714 60.579 0)
+			(at 251.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +12297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 251.714 60.579 0)
+			(at 251.46 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15831,7 +15855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.714 73.279 0)
+		(at 251.46 73.025 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15841,7 +15865,7 @@
 		(dnp no)
 		(uuid "9e47d836-d9c3-40a2-b90b-d5b97aa096c1")
 		(property "Reference" "#PWR0110"
-			(at 251.714 79.629 0)
+			(at 251.46 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,7 +15876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.714 77.724 0)
+			(at 251.46 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15862,7 +15886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.714 73.279 0)
+			(at 251.46 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15873,7 +15897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.714 73.279 0)
+			(at 251.46 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15884,7 +15908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.714 73.279 0)
+			(at 251.46 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19631,7 +19655,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.714 66.929 180)
+		(at 251.46 66.675 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19641,7 +19665,7 @@
 		(dnp no)
 		(uuid "f802ddd3-7ee4-4b2b-a3f8-800a6b67403e")
 		(property "Reference" "C16"
-			(at 244.729 66.294 0)
+			(at 244.475 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19652,7 +19676,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 244.729 68.834 0)
+			(at 244.475 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19663,7 +19687,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 250.7488 63.119 0)
+			(at 250.4948 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19674,7 +19698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.714 66.929 0)
+			(at 251.46 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19685,7 +19709,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 251.714 66.929 0)
+			(at 251.46 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

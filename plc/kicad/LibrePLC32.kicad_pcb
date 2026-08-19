@@ -6305,7 +6305,7 @@
 				)
 			)
 		)
-		(property "Value" "AHT20_C2757850"
+		(property "Value" "AHT20"
 			(at 0 5 0)
 			(layer "F.Fab")
 			(uuid "d32d0ce0-e587-4460-b4ec-2eac1e929e5d")
@@ -31340,7 +31340,7 @@
 				)
 			)
 		)
-		(property "Value" "73.2k"
+		(property "Value" "100k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b7e264c9-6fe3-41db-9cc2-f7266f73db8e")
@@ -64360,14 +64360,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "33052d96-dca2-453c-b9a5-f74945deb9b0")
-	)
-	(via
-		(at 104.879655 55.212857)
-		(size 0.5)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "363dfca7-3b94-41f3-9a73-1a2ff3f4e9de")
 	)
 	(via
 		(at 78.020655 123.252857)
