@@ -1,0 +1,1021 @@
+** Drc report for LibrePLC32.kicad_pcb **
+** Created on 2026-08-19T15:47:40 **
+** Report includes: Errors, Warnings **
+
+** Found 260 DRC violations **
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; warning
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5240 mm, 76.8054 mm): Reference field of TP9
+    @(81.6240 mm, 78.8040 mm): Segment of USB1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(150.4808 mm, 53.9892 mm): Circle on F.Silkscreen
+    @(142.2151 mm, 62.2974 mm): Segment of U11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 143.5000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 143.5000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.6700 mm, 149.2400 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 149.2400 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+    @(101.4200 mm, 142.8000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.4200 mm, 143.6000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+    @(101.6200 mm, 143.6000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.6200 mm, 143.6000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.6700 mm, 142.9500 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+    @(101.7200 mm, 143.5000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(101.7200 mm, 143.5000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 142.9500 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.6200 mm, 149.9000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(101.7200 mm, 149.8000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 150.1700 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 150.7800 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(91.7550 mm, 151.4000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 149.8000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 151.4000 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 151.4000 mm): Circle of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 151.4000 mm): Circle of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 143.4800 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 143.5000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.5950 mm, 142.8000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+    @(111.5950 mm, 143.6000 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.7950 mm, 143.6000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.8950 mm, 143.5000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 143.4800 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 150.1700 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 150.1700 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 150.1700 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 150.1700 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 150.1700 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 150.1700 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 150.7800 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 150.7800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 150.7800 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 150.7800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 150.7800 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 150.7800 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 151.4000 mm): Segment of CN7 on F.Silkscreen
+    @(101.9800 mm, 151.4000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 151.4000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 151.4000 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(101.9800 mm, 151.4000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 151.4000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 151.4000 mm): Circle of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(101.9800 mm, 151.4000 mm): Segment of CN6 on F.Silkscreen
+    @(101.9150 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 150.1700 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 150.7800 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 151.4000 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 143.4800 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 143.5000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.7950 mm, 149.9000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(111.8950 mm, 149.8000 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 149.2400 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 149.8000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.7950 mm, 143.6000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.8950 mm, 143.5000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1550 mm, 141.2000 mm): Segment of CN1 on F.Silkscreen
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 142.9500 mm): Segment of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(112.1400 mm, 141.2000 mm): Segment of CN6 on F.Silkscreen
+    @(112.1550 mm, 151.4000 mm): Circle of CN1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(122.3800 mm, 141.2000 mm): Segment of CN2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(122.3800 mm, 143.4800 mm): Segment of CN2 on F.Silkscreen
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(122.3800 mm, 150.7800 mm): Segment of CN2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(122.3800 mm, 151.4000 mm): Segment of CN2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(122.3800 mm, 150.1700 mm): Segment of CN2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.5400 mm, 141.2000 mm): Segment of CN2 on F.Silkscreen
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 151.4013 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 151.4013 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 151.4013 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 151.4013 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 151.4013 mm): Circle of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.6625 mm, 151.4013 mm): Segment of CN14 on F.Silkscreen
+    @(122.3800 mm, 151.4000 mm): Segment of CN2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(132.5400 mm, 141.2000 mm): Segment of CN2 on F.Silkscreen
+    @(132.6625 mm, 151.4013 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 151.4013 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.5025 mm, 143.6012 mm): Segment of CN13 on F.Silkscreen
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.6025 mm, 143.5012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 142.9512 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 143.5012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.5025 mm, 149.9013 mm): Segment of CN13 on F.Silkscreen
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.6025 mm, 149.8013 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 149.2413 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 149.8013 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 143.4812 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 150.1712 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 150.7812 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8225 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+    @(142.8625 mm, 151.4013 mm): Circle of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 151.4013 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 143.4812 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(142.8625 mm, 150.1712 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 150.7812 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 151.4013 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 151.3938 mm): Segment of CN5 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 141.1937 mm): Segment of CN5 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 151.3938 mm): Circle of CN5 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.3625 mm, 141.1937 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 150.1637 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 150.7738 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.3625 mm, 151.3938 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(162.8025 mm, 149.8938 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.0025 mm, 149.8938 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.0525 mm, 149.2337 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.1025 mm, 149.7937 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.3625 mm, 149.2337 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 149.7937 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.0025 mm, 143.5938 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.0525 mm, 142.9437 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.1025 mm, 143.4938 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 141.1937 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(163.3625 mm, 142.9437 mm): Segment of CN5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 151.3938 mm): Circle of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 143.4737 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(163.3625 mm, 143.4938 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(162.8025 mm, 143.5938 mm): Segment of CN5 on F.Silkscreen
+    @(163.2225 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 143.4812 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 150.1712 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 150.7812 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(132.6625 mm, 141.2012 mm): Segment of CN14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(142.8625 mm, 151.4013 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Circle of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(152.7025 mm, 149.9013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(152.8025 mm, 149.8013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 149.2413 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 149.8013 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(152.7025 mm, 143.6012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 143.5012 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(152.8025 mm, 143.5012 mm): Segment of CN10 on F.Silkscreen
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 142.9512 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0625 mm, 141.2012 mm): Segment of CN10 on F.Silkscreen
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0625 mm, 143.4812 mm): Segment of CN10 on F.Silkscreen
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 150.1712 mm): Segment of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0625 mm, 150.7812 mm): Segment of CN10 on F.Silkscreen
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(153.0225 mm, 141.2012 mm): Segment of CN13 on F.Silkscreen
+    @(153.0625 mm, 151.4013 mm): Circle of CN10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(99.1207 mm, 133.0979 mm): Reference field of U5
+    @(99.5607 mm, 133.8979 mm): Segment of U5 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 150.1700 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 150.1700 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 150.1700 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 150.1700 mm): Segment of CN8 on F.Silkscreen
+    @(71.2950 mm, 150.1950 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 150.1700 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(81.5200 mm, 150.7800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 150.7800 mm): Segment of CN7 on F.Silkscreen
+    @(81.5200 mm, 150.7800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 150.8050 mm): Segment of CN9 on F.Silkscreen
+    @(81.5200 mm, 150.7800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 150.7800 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 151.4000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 151.4000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 151.4000 mm): Circle of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 151.4000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 151.4000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 151.4000 mm): Segment of CN8 on F.Silkscreen
+    @(71.2950 mm, 151.4250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 151.4000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.3950 mm, 149.9000 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.4450 mm, 149.2400 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.1950 mm, 142.8000 mm): Segment of CN7 on F.Silkscreen
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(91.3950 mm, 143.6000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.1950 mm, 143.6000 mm): Segment of CN7 on F.Silkscreen
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(91.4950 mm, 143.5000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 143.5000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 143.4800 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.3950 mm, 143.6000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.4450 mm, 142.9500 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.4950 mm, 143.5000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 142.9500 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.4950 mm, 149.8000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 149.2400 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 149.8000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 151.4000 mm): Circle of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 141.2000 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 143.4800 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(91.7550 mm, 143.5000 mm): Segment of CN7 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 150.1700 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 150.7800 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(91.7550 mm, 151.4000 mm): Segment of CN7 on F.Silkscreen
+    @(91.6800 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.1600 mm, 149.9000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.2100 mm, 149.2400 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.2600 mm, 149.8000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 149.2400 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 149.8000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(80.9600 mm, 142.8000 mm): Segment of CN8 on F.Silkscreen
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+    @(80.9600 mm, 143.6000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+    @(81.1600 mm, 143.6000 mm): Segment of CN8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.1600 mm, 143.6000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.2100 mm, 142.9500 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.2600 mm, 143.5000 mm): Segment of CN8 on F.Silkscreen
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.2600 mm, 143.5000 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 142.9500 mm): Segment of CN8 on F.Silkscreen
+    @(81.4550 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+    @(71.2950 mm, 143.5050 mm): Segment of CN9 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(71.2950 mm, 141.2250 mm): Segment of CN9 on F.Silkscreen
+    @(81.5200 mm, 141.2000 mm): Segment of CN8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.8897 mm, 39.1929 mm): Segment of RJ1 on F.Silkscreen
+    @(56.1897 mm, 53.1629 mm): PTH pad 14 [Earth] of RJ1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(71.8097 mm, 39.1829 mm): Segment of RJ1 on F.Silkscreen
+    @(71.6897 mm, 53.1629 mm): PTH pad 13 [Earth] of RJ1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(85.4570 mm, 66.8520 mm): Circle of U9 on F.Silkscreen
+    @(85.3670 mm, 66.6020 mm): Pad 1 [unconnected-(U9-CLKOUT-Pad1)] of U9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(191.3500 mm, 94.7000 mm): Reference field of U14
+    @(191.6500 mm, 94.6400 mm): Pad 3 [GND] of D17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(150.1000 mm, 100.7700 mm): Reference field of R115
+    @(147.9200 mm, 100.1000 mm): Pad 2 [GND] of U21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.5325 mm, 84.8012 mm): Reference field of L2
+    @(139.2725 mm, 85.4013 mm): Pad 1 [Net-(D10-K)] of D10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(106.7020 mm, 137.5000 mm): Reference field of TP27
+    @(105.7607 mm, 138.4479 mm): Pad 2 [Net-(R28-Pad2)] of R28 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5000 mm, 116.0000 mm): Reference field of R79
+    @(122.1816 mm, 116.5111 mm): Pad 1 [V_FIELD] of R79 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.2616 mm, 128.6811 mm): Circle of Q6 on F.Silkscreen
+    @(117.8300 mm, 130.6000 mm): Pad 2 [/Power/V_IN_MAIN] of D6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(120.5000 mm, 113.6000 mm): Reference field of R85
+    @(122.1316 mm, 113.3111 mm): Pad 1 [V_FIELD] of R85 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(139.1825 mm, 80.9762 mm): Pad 1 [GND] of C36 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(113.1250 mm, 125.2000 mm): Pad 1 [GND] of C23 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(63.8647 mm, 95.8629 mm): Pad 2 [GND] of X1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(109.3816 mm, 117.9111 mm): Pad 2 [GND] of C22 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(92.3600 mm, 95.2000 mm): PTH pad 1 [GND] of J2
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(70.9647 mm, 101.2629 mm): Pad 1 [GND] of C18 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(137.1275 mm, 109.2963 mm): Pad 2 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(137.1275 mm, 109.9463 mm): Pad 3 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(137.1275 mm, 115.7862 mm): Pad 12 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; warning
+    @(205.6000 mm, 151.7000 mm): Zone 'GND Pour' [GND] on F.Cu, B.Cu and In1.Cu, priority 0
+    @(109.3816 mm, 106.5111 mm): Pad 2 [GND] of C20 on F.Cu
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(58.0997 mm, 50.1129 mm): PTH pad [<no net>] of RJ1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(69.5297 mm, 50.1129 mm): PTH pad [<no net>] of RJ1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(83.2740 mm, 85.7640 mm): PTH pad [<no net>] of USB1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(83.2740 mm, 78.2640 mm): PTH pad [<no net>] of USB1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(57.6647 mm, 103.0629 mm): PTH pad [<no net>] of Card1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(57.6647 mm, 111.0629 mm): PTH pad [<no net>] of Card1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(94.4297 mm, 52.5479 mm): PTH pad [<no net>] of USB2
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(101.9297 mm, 52.5479 mm): PTH pad [<no net>] of USB2
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(202.8535 mm, 74.0000 mm): PTH pad [<no net>] of SW5
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(202.8535 mm, 71.0000 mm): PTH pad [<no net>] of SW5
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(202.8000 mm, 108.5000 mm): PTH pad [<no net>] of SW4
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    Local override; warning
+    @(202.8000 mm, 105.5000 mm): PTH pad [<no net>] of SW4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(51.1000 mm, 38.8000 mm): Rectangle on Edge.Cuts
+    @(204.2335 mm, 72.3500 mm): Segment of SW5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(51.1000 mm, 38.8000 mm): Rectangle on Edge.Cuts
+    @(205.8335 mm, 71.0700 mm): Segment of SW5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(51.1000 mm, 38.8000 mm): Rectangle on Edge.Cuts
+    @(204.1800 mm, 106.8500 mm): Segment of SW4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(51.1000 mm, 38.8000 mm): Rectangle on Edge.Cuts
+    @(205.7800 mm, 105.5700 mm): Segment of SW4 on F.Silkscreen
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(147.0825 mm, 110.0012 mm): Via [/Power/V_IN_MAIN] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(74.0397 mm, 108.6379 mm): Track [/MCU/~{SD_CS}] on F.Cu, length 0.0354 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(119.7825 mm, 111.5012 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(121.7825 mm, 111.5012 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(117.7825 mm, 111.5012 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(148.4675 mm, 133.7862 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(115.7825 mm, 111.5012 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(136.7675 mm, 133.7862 mm): Via [V_FIELD] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(200.2000 mm, 73.8000 mm): Via [Net-(R94-Pad1)] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(154.5575 mm, 132.0762 mm): Track [/Terminal Blocks Interface/T1_FLT1] on F.Cu, length 0.0141 mm
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(58.0997 mm, 50.1129 mm): PTH pad [<no net>] of RJ1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(69.5297 mm, 50.1129 mm): PTH pad [<no net>] of RJ1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0128 mm)
+    Rule: board setup constraints; warning
+    @(71.6897 mm, 53.1629 mm): PTH pad 13 [Earth] of RJ1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0128 mm)
+    Rule: board setup constraints; warning
+    @(56.1897 mm, 53.1629 mm): PTH pad 14 [Earth] of RJ1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(83.2740 mm, 85.7640 mm): PTH pad [<no net>] of USB1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(83.2740 mm, 78.2640 mm): PTH pad [<no net>] of USB1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(57.6647 mm, 103.0629 mm): PTH pad [<no net>] of Card1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(57.6647 mm, 111.0629 mm): PTH pad [<no net>] of Card1
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(94.4297 mm, 52.5479 mm): PTH pad [<no net>] of USB2
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(101.9297 mm, 52.5479 mm): PTH pad [<no net>] of USB2
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(202.8535 mm, 74.0000 mm): PTH pad [<no net>] of SW5
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(202.8535 mm, 71.0000 mm): PTH pad [<no net>] of SW5
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(202.8000 mm, 108.5000 mm): PTH pad [<no net>] of SW4
+[annular_width]: Annular width (board setup constraints min annular width 0,1000 mm; actual 0,0000 mm)
+    Rule: board setup constraints; warning
+    @(202.8000 mm, 105.5000 mm): PTH pad [<no net>] of SW4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Footprint has malformed courtyard
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
